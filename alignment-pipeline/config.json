@@ -1,0 +1,63 @@
+{
+    "output_dir" : "/fh/fast/overbaugh_j/PhIP/Caitlin-Pan-CoV-PhIP-Seq/Analysis-Archive-10-13-20/",
+
+    "samples" : "sample_metadata.csv",
+
+    "references" : {
+        "cov" : "peptide_metadata.csv"
+    },
+
+    "tile_length" : {
+        "cov" : 117
+    },
+
+    "seq_dir" : {
+        "20-04-21-cov2-ex1" : "NGS/20-04-21-cov2-ex1/",
+        "20-04-21-cov2-ex2" : "NGS/20-04-21-cov2-ex2/",
+        "20-04-25-cov2-ex3" : "NGS/20-04-25-cov2-ex3/",
+        "20-05-14-cov2-ex4a" : "NGS/20-05-14-cov2-ex4a/",
+        "20-05-15-cov2-ex4b" : "NGS/20-05-15-cov2-ex4b/",
+        "20-05-27-cov2-ex5a" : "NGS/20-05-27-cov2-ex5a/",
+        "20-06-02-cov2-ex5b" : "NGS/20-06-02-cov2-ex5b/",
+        "20-06-11-cov2-ex6" : "NGS/20-06-11-cov2-ex6/",
+        "20-06-18-cov2-ex7.1" : "NGS/20-06-18-cov2-ex7.1/",
+        "20-06-23-cov2-exs7.2-8" : "NGS/20-06-23-cov2-exs7.2-8/",
+        "20-05-12-cov2-libs" : "NGS/20-05-12-cov2-libs/",
+        "20-06-29-cov2-ex9a" : "NGS/20-06-29-cov2-ex9a/",
+        "20-06-30-cov2-ex9b" : "NGS/20-06-30-cov2-ex9b/",
+        "20-08-05-cov2-ex10a" : "NGS/20-08-05-cov2-ex10a/",
+        "20-08-05-cov2-ex10b" : "NGS/20-08-05-cov2-ex10b/",
+        "20-08-25-cov2-ex11a" : "NGS/20-08-25-cov2-ex11a/",
+        "20-08-25-cov2-ex11b" : "NGS/20-08-25-cov2-ex11b/",
+        "20-09-02-cov2-ex12" : "NGS/20-09-02-cov2-ex12/"
+    },
+
+    "read_length" : {
+        "20-04-21-cov2-ex1" : 125,
+        "20-04-21-cov2-ex2" : 125,
+        "20-04-25-cov2-ex3" : 125,
+        "20-05-14-cov2-ex4a" : 125,
+        "20-05-15-cov2-ex4b" : 125,
+        "20-05-27-cov2-ex5a" : 125,
+        "20-06-02-cov2-ex5b" : 125,
+        "20-06-11-cov2-ex6" : 125,
+        "20-06-18-cov2-ex7.1" : 125,
+        "20-06-23-cov2-exs7.2-8" : 125,
+        "20-05-12-cov2-libs" : 125,
+        "20-06-29-cov2-ex9a" : 125,
+        "20-06-30-cov2-ex9b" : 125,
+        "20-08-05-cov2-ex10a" : 125,
+        "20-08-05-cov2-ex10b" : 125,
+        "20-08-25-cov2-ex11a" : 125,
+        "20-08-25-cov2-ex11b" : 125,
+        "20-09-02-cov2-ex12" : 125
+    },
+
+    "num_mm" : 2,
+
+    "counts_matrix_prefix" : "10-13-20-",
+    
+    "tech_rep_agg_func" : "mean",
+
+    "fastq_stream_func" : "zcat"
+}

@@ -1,0 +1,847 @@
+ID,fastq_pattern,reference,seq_dir,submitted_by,library_batch,control_status,sample_ID,sample_description,sample_type,species,participant_ID,age,sex,race,days_from_symptom_onset,patient_status,source,pandemic_status
+0,ex1-rep*-1_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,1,Anti-SARS Urbani E protein IgM clone 472C,mAb,NA,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+1,ex1-rep*-2_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,2,Anti SARS Urbani M protein IgM clone 19C,mAb,NA,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+2,ex1-rep*-3_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,3,Anti-SARS Urbani S protein IgG2a clone 240C,mAb,NA,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+3,ex1-rep*-4_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,4,Anti-SARS Urbani S protein IgG2a clone 341C,mAb,NA,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+4,ex1-rep*-5_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,5,Anti-SARS Urbani S protein IgG2a clone 540C,mAb,NA,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+5,ex1-rep*-6_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,6,Anti-SARS N protein IgM clone 42C,mAb,NA,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+6,ex1-rep*-7_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,7,Anti-SARS Urbani S protein igM clone 154C ,mAb,NA,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+7,ex1-rep*-8_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,8,Anti-SARS Urbani M protein IgG1 clone 283C,mAb,NA,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+8,ex1-rep*-9_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,9,Guinea pig anti-SARS sera,serum,guinea pig,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+9,ex1-rep*-10_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,10,Rabbit serum Anti-SARS-CoV S protein (LOW titer),serum,rabbit,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+10,ex1-rep*-11_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,11,Rabbit serum Anti-SARS-CoV S protein (MEDIUM titer),serum,rabbit,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+11,ex1-rep*-12_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,12,Rabbit serum Anti-SARS-CoV S protein (HIGH titer),serum,rabbit,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+12,ex1-rep*-13_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,13,Rabbit serum Anti-SARS-CoV S protein (LOW titer) + alhydrogel,serum,rabbit,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+13,ex1-rep*-14_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,14,Rabbit serum Anti-SARS-CoV S protein (MEDIUM titer) + alhydrogel,serum,rabbit,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+14,ex1-rep*-15_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,15,Rabbit serum Anti-SARS-CoV S protein (HIGH titer) + alhydrogel,serum,rabbit,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+15,ex1-rep*-16_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,16,Mouse Anti-Coronavirus OC43,mAb,mouse,NA,NA,NA,NA,NA,NA,EMD Millipore,NA
+16,ex1-rep*-17_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,17,MERS-CoV Nucleocapsid - Mouse,mAb,mouse,NA,NA,NA,NA,NA,NA,Sino,NA
+17,ex1-rep*-18_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,18,MERS-CoV Nucleocapsid - Rabbit,pAb,rabbit,NA,NA,NA,NA,NA,NA,Sino,NA
+18,ex1-rep*-19_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,19,SARS-CoV Spike Antibody clone D006,mAb,NA,NA,NA,NA,NA,NA,NA,Sino,NA
+19,ex1-rep*-20_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,20,SARS-CoV Nucleoprotein/NP Antibody Rabbit clone 001,mAb,rabbit,NA,NA,NA,NA,NA,NA,Sino,NA
+20,ex1-rep*-21_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,21,SARS-CoV Nucleoprotein/NP Antiobdy Rabbit clone 040,mAb,rabbit,NA,NA,NA,NA,NA,NA,Sino,NA
+21,ex1-rep*-22_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,22,SARS-CoV Spike Antibody clone D001,mAb,NA,NA,NA,NA,NA,NA,NA,Sino,NA
+22,ex1-rep*-23_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,23,SARS-CoV-2 (2019-nCoV) Nucleoprotein/NP Antibody Rabbit clone 019,mAb,rabbit,NA,NA,NA,NA,NA,NA,Sino,NA
+23,ex1-rep*-24_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,24,SARS-CoV Spike Antibody clone D003,mAb,NA,NA,NA,NA,NA,NA,NA,Sino,NA
+24,ex1-rep*-25_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,25,SARS-CoV Spike Antibody clone D002,mAb,NA,NA,NA,NA,NA,NA,NA,Sino,NA
+25,ex1-rep*-26_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,26,SARS-CoV Spike Antibody clone D005,mAb,NA,NA,NA,NA,NA,NA,NA,Sino,NA
+26,ex1-rep*-27_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,27,SARS-CoV Nucleoprotein/NP Antibody Rabbit clone 004,mAb,rabbit,NA,NA,NA,NA,NA,NA,Sino,NA
+27,ex1-rep*-28_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,28,SARS-CoV Nucleoprotein/NP Antibody Mouse clone 08,mAb,mouse,NA,NA,NA,NA,NA,NA,Sino,NA
+28,ex1-rep*-29_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,29,SARS-CoV Nucleoprotein/NP Antibody Mouse clone 05,mAb,mouse,NA,NA,NA,NA,NA,NA,Sino,NA
+29,ex1-rep*-30_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,30,MERS-CoV Nucleocapsid Protein Antibody Rabbit,pAb,rabbit,NA,NA,NA,NA,NA,NA,Sino,NA
+30,ex1-rep*-31_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,31,CR3022 SARS-CoV/SARS-CoV-2 cross-reactive RBD domain,mAb,NA,NA,NA,NA,NA,NA,NA,Bloom lab,NA
+31,ex1-rep*-32_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,32,COVID-19 acute inpatient sample ID 37ff96d0,EDTA plasma,human,12001,NA,NA,NA,15,acute inpatient,Helen Chu,pandemic
+32,ex1-rep*-33_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,33,COVID-19 acute inpatient sample ID 9397810a,EDTA plasma,human,12104,NA,NA,NA,15,acute inpatient,Helen Chu,pandemic
+33,ex1-rep*-34_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,34,COVID-19 acute inpatient sample ID d589c4c5,EDTA plasma,human,12101,NA,NA,NA,11,acute inpatient,Helen Chu,pandemic
+34,ex1-rep*-35_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,35,COVID-19 acute inpatient sample ID bd7724a9,EDTA plasma,human,12004,NA,NA,NA,8,acute inpatient,Helen Chu,pandemic
+35,ex1-rep*-36_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,36,COVID-19 convalescent outpatient sample ID d16ac321,ACD plasma,human,3C,NA,NA,NA,30,conv outpatient 30d,Helen Chu,pandemic
+36,ex1-rep*-37_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,37,COVID-19 convalescent outpatient sample ID a42c00b8,ACD plasma,human,5C,NA,NA,NA,30,conv outpatient 30d,Helen Chu,pandemic
+37,ex1-rep*-38_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,38,COVID-19 convalescent outpatient sample ID 62899754,ACD plasma,human,7C,NA,NA,NA,30,conv outpatient 30d,Helen Chu,pandemic
+38,ex1-rep*-39_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,39,COVID-19 convalescent outpatient sample ID 332e3eb3,ACD plasma,human,17C,NA,NA,NA,30,conv outpatient 30d,Helen Chu,pandemic
+39,ex1-rep*-40_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,40,COVID-19 convalescent outpatient sample ID 9e35cd56,ACD plasma,human,19C,NA,NA,NA,30,conv outpatient 30d,Helen Chu,pandemic
+40,ex1-rep*-41_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,41,deidentified healthy adult sample ID 1a,serum,human,1a,NA,NA,NA,NA,healthy adult,Helen Chu,pre
+41,ex1-rep*-42_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,42,deidentified healthy adult sample ID 4a,serum,human,4a,NA,NA,NA,NA,healthy adult,Helen Chu,pre
+42,ex1-rep*-43_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,43,deidentified healthy adult sample ID 7a,serum,human,7a,NA,NA,NA,NA,healthy adult,Helen Chu,pre
+43,ex1-rep*-44_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,44,deidentified healthy adult sample ID 10a,serum,human,10a,NA,NA,NA,NA,healthy adult,Helen Chu,pre
+44,ex1-rep*-45_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,empirical,45,deidentified healthy adult sample ID 13a,serum,human,13a,NA,NA,NA,NA,healthy adult,Helen Chu,pre
+45,ex1-rep*-46-beads_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+46,ex1-rep*-47_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,HIV_positive_control,240D,240D mAb,mAb,NA,NA,NA,NA,NA,NA,NA,NA,
+47,ex1-rep1-48-beads_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+48,ex1-48-library_*R1*,cov,20-04-21-cov2-ex1,caitlin,SUB2,library,NA,input library,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+49,rep*-1_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,41,deidentified healthy adult sample ID 1a,serum,human,1a,NA,NA,NA,NA,healthy adult,Helen Chu,pre
+50,rep*-2_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,42,deidentified healthy adult sample ID 4a,serum,human,4a,NA,NA,NA,NA,healthy adult,Helen Chu,pre
+51,rep*-3_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,43,deidentified healthy adult sample ID 7a,serum,human,7a,NA,NA,NA,NA,healthy adult,Helen Chu,pre
+52,rep*-4_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,44,deidentified healthy adult sample ID 10a,serum,human,10a,NA,NA,NA,NA,healthy adult,Helen Chu,pre
+53,rep*-5_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,45,deidentified healthy adult sample ID 13a,serum,human,13a,NA,NA,NA,NA,healthy adult,Helen Chu,pre
+54,rep*-6_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,36,COVID-19 convalescent outpatient sample ID d16ac321,ACD plasma,human,3C,NA,NA,NA,30,conv outpatient 30d,Helen Chu,pandemic
+55,rep*-7_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,37,COVID-19 convalescent outpatient sample ID a42c00b8,ACD plasma,human,5C,NA,NA,NA,30,conv outpatient 30d,Helen Chu,pandemic
+56,rep*-8_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,38,COVID-19 convalescent outpatient sample ID 62899754,ACD plasma,human,7C,NA,NA,NA,30,conv outpatient 30d,Helen Chu,pandemic
+57,rep*-9_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,39,COVID-19 convalescent outpatient sample ID 332e3eb3,ACD plasma,human,17C,NA,NA,NA,30,conv outpatient 30d,Helen Chu,pandemic
+58,rep*-10_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,40,COVID-19 convalescent outpatient sample ID 9e35cd56,ACD plasma,human,19C,NA,NA,NA,30,conv outpatient 30d,Helen Chu,pandemic
+59,rep*-11_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,49,Chu-208bd2e9,ACD plasma,human,3C,47,Female,White,72,conv outpatient 60d,Helen Chu,pandemic
+60,rep*-12_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,50,Chu-b079f545,ACD plasma,human,4C,48,Female,White,31,conv outpatient 30d,Helen Chu,pandemic
+61,rep*-13_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,51,Chu-7490cf2c,ACD plasma,human,4C,48,Female,White,63,conv outpatient 60d,Helen Chu,pandemic
+62,rep*-14_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,52,Chu-42966da4,ACD plasma,human,5C,43,Female,White,60,conv outpatient 60d,Helen Chu,pandemic
+63,rep*-15_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,53,Chu-00a56f6b,ACD plasma,human,6C,64,Female,White,33,conv outpatient 30d,Helen Chu,pandemic
+64,rep*-16_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,54,Chu-30b5b54b,ACD plasma,human,6C,64,Female,White,76,conv outpatient 60d,Helen Chu,pandemic
+65,rep*-17_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,55,Chu-c440fef8,ACD plasma,human,7C,65,Male,White,71,conv outpatient 60d,Helen Chu,pandemic
+66,rep*-18_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,56,Chu-20eb5f95,ACD plasma,human,8C,22,Male,White,29,conv outpatient 30d,Helen Chu,pandemic
+67,rep*-19_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,57,Chu-94152e0f,ACD plasma,human,8C,22,Male,White,74,conv outpatient 60d,Helen Chu,pandemic
+68,rep*-20_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,58,Chu-e45c7c6f,ACD plasma,human,10C,31,Female,White,31,conv outpatient 30d,Helen Chu,pandemic
+69,rep*-21_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,59,Chu-d5644f2a,ACD plasma,human,10C,31,Female,White,67,conv outpatient 60d,Helen Chu,pandemic
+70,rep*-22_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,60,Chu-b6b14fc5,ACD plasma,human,11C,56,Male,White,26,conv outpatient 30d,Helen Chu,pandemic
+71,rep*-23_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,61,Chu-49e49b80,ACD plasma,human,11C,56,Male,White,55,conv outpatient 60d,Helen Chu,pandemic
+72,rep*-24_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,62,Chu-6312541c,ACD plasma,human,12C,68,Male,White,61,conv outpatient 60d,Helen Chu,pandemic
+73,rep*-25_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,63,Chu-693db601,ACD plasma,human,12C,68,Male,White,91,conv outpatient 90d,Helen Chu,pandemic
+74,rep*-26_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,64,Chu-53cd5813,ACD plasma,human,15C,28,Female,White,34,conv outpatient 30d,Helen Chu,pandemic
+75,rep*-27_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,65,Chu-aeeff39b,ACD plasma,human,15C,28,Female,White,67,conv outpatient 60d,Helen Chu,pandemic
+76,rep*-28_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,66,Chu-2eae98c3,ACD plasma,human,17C,29,Male,Asian,67,conv outpatient 60d,Helen Chu,pandemic
+77,rep*-29_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,67,Chu-6ca13f43,ACD plasma,human,19C,18,Female,White,61,conv outpatient 60d,Helen Chu,pandemic
+78,rep*-30_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,68,Chu-f3e13886,ACD plasma,human,20C,30,Male,White,34,conv outpatient 30d,Helen Chu,pandemic
+79,rep*-31_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,69,Chu-a5361107,ACD plasma,human,20C,30,Male,White,62,conv outpatient 60d,Helen Chu,pandemic
+80,rep*-32_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,70,Chu-caac6519,ACD plasma,human,21C,36,Female,White,26,conv outpatient 30d,Helen Chu,pandemic
+81,rep*-33_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,71,Chu-c3d86324,ACD plasma,human,21C,36,Female,White,58,conv outpatient 60d,Helen Chu,pandemic
+82,rep*-34_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,72,Chu-d29ef58b,ACD plasma,human,22C,65,Male,White,28,conv outpatient 30d,Helen Chu,pandemic
+83,rep*-35_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,73,Chu-1afe94f4,ACD plasma,human,22C,65,Male,White,66,conv outpatient 60d,Helen Chu,pandemic
+84,rep*-36_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,74,Chu-fcc31a18,ACD plasma,human,23C,65,Female,White,26,conv outpatient 30d,Helen Chu,pandemic
+85,rep*-37_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,75,Chu-ca561c6b,ACD plasma,human,23C,65,Female,White,64,conv outpatient 60d,Helen Chu,pandemic
+86,rep*-38_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,76,Chu-54b7ea36,ACD plasma,human,25C,52,Female,White,48,conv outpatient 30d,Helen Chu,pandemic
+87,rep*-39_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,77,Chu-ef71f069,ACD plasma,human,25C,52,Female,White,77,conv outpatient 60d,Helen Chu,pandemic
+88,rep*-40_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,78,Chu-374e2105,ACD plasma,human,27C,52,Male,White,35,conv outpatient 30d,Helen Chu,pandemic
+89,rep*-41_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,79,Chu-0f465cfc,ACD plasma,human,27C,52,Male,White,69,conv outpatient 60d,Helen Chu,pandemic
+90,rep*-42_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,80,Chu-62b982f7,ACD plasma,human,32C,36,Male,White,30,conv outpatient 30d,Helen Chu,pandemic
+91,rep*-43_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,81,Chu-fdece405,ACD plasma,human,32C,36,Male,White,57,conv outpatient 60d,Helen Chu,pandemic
+92,rep*-44_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,82,Chu-691936a9,ACD plasma,human,35C,29,Male,White,43,conv outpatient 30d,Helen Chu,pandemic
+93,rep*-45_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,empirical,83,Chu-f634c858,ACD plasma,human,35C,29,Male,White,73,conv outpatient 60d,Helen Chu,pandemic
+94,rep*-46_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,HIV_positive_control,F240,F240 HIV mAb,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+95,rep*-47-beads_*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,beads_only,NA,beads only,mAb,NA,NA,NA,NA,NA,NA,NA,NA,
+96,rep*-48-input*R1*,cov,20-05-27-cov2-ex5a,caitlin,MEGSUB,library,NA,input library,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+97,ex5b-rep*-1_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,41,deidentified healthy adult sample ID 1a,serum,human,1a,NA,NA,NA,NA,healthy adult,Helen Chu,pre
+98,ex5b-rep*-2_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,42,deidentified healthy adult sample ID 4a,serum,human,4a,NA,NA,NA,NA,healthy adult,Helen Chu,pre
+99,ex5b-rep*-3_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,43,deidentified healthy adult sample ID 7a,serum,human,7a,NA,NA,NA,NA,healthy adult,Helen Chu,pre
+100,ex5b-rep*-4_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,44,deidentified healthy adult sample ID 10a,serum,human,10a,NA,NA,NA,NA,healthy adult,Helen Chu,pre
+101,ex5b-rep*-5_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,45,deidentified healthy adult sample ID 13a,serum,human,13a,NA,NA,NA,NA,healthy adult,Helen Chu,pre
+102,ex5b-rep*-6_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,36,COVID-19 convalescent outpatient sample ID d16ac321,ACD plasma,human,3C,NA,NA,NA,30,conv outpatient 30d,Helen Chu,pandemic
+103,ex5b-rep*-7_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,37,COVID-19 convalescent outpatient sample ID a42c00b8,ACD plasma,human,5C,NA,NA,NA,30,conv outpatient 30d,Helen Chu,pandemic
+104,ex5b-rep*-8_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,38,COVID-19 convalescent outpatient sample ID 62899754,ACD plasma,human,7C,NA,NA,NA,30,conv outpatient 30d,Helen Chu,pandemic
+105,ex5b-rep*-9_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,39,COVID-19 convalescent outpatient sample ID 332e3eb3,ACD plasma,human,17C,NA,NA,NA,30,conv outpatient 30d,Helen Chu,pandemic
+106,ex5b-rep*-10_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,40,COVID-19 convalescent outpatient sample ID 9e35cd56,ACD plasma,human,19C,NA,NA,NA,30,conv outpatient 30d,Helen Chu,pandemic
+107,ex5b-rep*-11_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,49,Chu-208bd2e9,ACD plasma,human,3C,47,Female,White,72,conv outpatient 60d,Helen Chu,pandemic
+108,ex5b-rep*-12_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,50,Chu-b079f545,ACD plasma,human,4C,48,Female,White,31,conv outpatient 30d,Helen Chu,pandemic
+109,ex5b-rep*-13_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,51,Chu-7490cf2c,ACD plasma,human,4C,48,Female,White,63,conv outpatient 60d,Helen Chu,pandemic
+110,ex5b-rep*-14_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,52,Chu-42966da4,ACD plasma,human,5C,43,Female,White,60,conv outpatient 60d,Helen Chu,pandemic
+111,ex5b-rep*-15_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,53,Chu-00a56f6b,ACD plasma,human,6C,64,Female,White,33,conv outpatient 30d,Helen Chu,pandemic
+112,ex5b-rep*-16_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,54,Chu-30b5b54b,ACD plasma,human,6C,64,Female,White,76,conv outpatient 60d,Helen Chu,pandemic
+113,ex5b-rep*-17_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,55,Chu-c440fef8,ACD plasma,human,7C,65,Male,White,71,conv outpatient 60d,Helen Chu,pandemic
+114,ex5b-rep*-18_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,56,Chu-20eb5f95,ACD plasma,human,8C,22,Male,White,29,conv outpatient 30d,Helen Chu,pandemic
+115,ex5b-rep*-19_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,57,Chu-94152e0f,ACD plasma,human,8C,22,Male,White,74,conv outpatient 60d,Helen Chu,pandemic
+116,ex5b-rep*-20_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,58,Chu-e45c7c6f,ACD plasma,human,10C,31,Female,White,31,conv outpatient 30d,Helen Chu,pandemic
+117,ex5b-rep*-21_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,59,Chu-d5644f2a,ACD plasma,human,10C,31,Female,White,67,conv outpatient 60d,Helen Chu,pandemic
+118,ex5b-rep*-22_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,60,Chu-b6b14fc5,ACD plasma,human,11C,56,Male,White,26,conv outpatient 30d,Helen Chu,pandemic
+119,ex5b-rep*-23_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,61,Chu-49e49b80,ACD plasma,human,11C,56,Male,White,55,conv outpatient 60d,Helen Chu,pandemic
+120,ex5b-rep*-24_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,62,Chu-6312541c,ACD plasma,human,12C,68,Male,White,61,conv outpatient 60d,Helen Chu,pandemic
+121,ex5b-rep*-25_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,63,Chu-693db601,ACD plasma,human,12C,68,Male,White,91,conv outpatient 90d,Helen Chu,pandemic
+122,ex5b-rep*-26_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,64,Chu-53cd5813,ACD plasma,human,15C,28,Female,White,34,conv outpatient 30d,Helen Chu,pandemic
+123,ex5b-rep*-27_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,65,Chu-aeeff39b,ACD plasma,human,15C,28,Female,White,67,conv outpatient 60d,Helen Chu,pandemic
+124,ex5b-rep*-28_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,66,Chu-2eae98c3,ACD plasma,human,17C,29,Male,Asian,67,conv outpatient 60d,Helen Chu,pandemic
+125,ex5b-rep*-29_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,67,Chu-6ca13f43,ACD plasma,human,19C,18,Female,White,61,conv outpatient 60d,Helen Chu,pandemic
+126,ex5b-rep*-30_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,68,Chu-f3e13886,ACD plasma,human,20C,30,Male,White,34,conv outpatient 30d,Helen Chu,pandemic
+127,ex5b-rep*-31_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,69,Chu-a5361107,ACD plasma,human,20C,30,Male,White,62,conv outpatient 60d,Helen Chu,pandemic
+128,ex5b-rep*-32_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,70,Chu-caac6519,ACD plasma,human,21C,36,Female,White,26,conv outpatient 30d,Helen Chu,pandemic
+129,ex5b-rep*-33_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,71,Chu-c3d86324,ACD plasma,human,21C,36,Female,White,58,conv outpatient 60d,Helen Chu,pandemic
+130,ex5b-rep*-34_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,72,Chu-d29ef58b,ACD plasma,human,22C,65,Male,White,28,conv outpatient 30d,Helen Chu,pandemic
+131,ex5b-rep*-35_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,73,Chu-1afe94f4,ACD plasma,human,22C,65,Male,White,66,conv outpatient 60d,Helen Chu,pandemic
+132,ex5b-rep*-36_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,74,Chu-fcc31a18,ACD plasma,human,23C,65,Female,White,26,conv outpatient 30d,Helen Chu,pandemic
+133,ex5b-rep*-37_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,75,Chu-ca561c6b,ACD plasma,human,23C,65,Female,White,64,conv outpatient 60d,Helen Chu,pandemic
+134,ex5b-rep*-38_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,76,Chu-54b7ea36,ACD plasma,human,25C,52,Female,White,48,conv outpatient 30d,Helen Chu,pandemic
+135,ex5b-rep*-39_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,77,Chu-ef71f069,ACD plasma,human,25C,52,Female,White,77,conv outpatient 60d,Helen Chu,pandemic
+136,ex5b-rep*-40_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,78,Chu-374e2105,ACD plasma,human,27C,52,Male,White,35,conv outpatient 30d,Helen Chu,pandemic
+137,ex5b-rep*-41_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,79,Chu-0f465cfc,ACD plasma,human,27C,52,Male,White,69,conv outpatient 60d,Helen Chu,pandemic
+138,ex5b-rep*-42_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,80,Chu-62b982f7,ACD plasma,human,32C,36,Male,White,30,conv outpatient 30d,Helen Chu,pandemic
+139,ex5b-rep*-43_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,81,Chu-fdece405,ACD plasma,human,32C,36,Male,White,57,conv outpatient 60d,Helen Chu,pandemic
+140,ex5b-rep*-44_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,82,Chu-691936a9,ACD plasma,human,35C,29,Male,White,43,conv outpatient 30d,Helen Chu,pandemic
+141,ex5b-rep*-45_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,empirical,83,Chu-f634c858,ACD plasma,human,35C,29,Male,White,73,conv outpatient 60d,Helen Chu,pandemic
+142,ex5b-rep*-46_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,HIV_positive_control,F240,F240 HIV mAb,mAb,NA,NA,NA,NA,NA,NA,NA,NA,NA
+143,ex5b-rep*-47-beads_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+144,ex5b-rep1-48-library_*R1*,cov,20-06-02-cov2-ex5b,mackenzie,SUB2,library,NA,input library,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+145,ex2-rep*-1_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,1,Anti-SARS Urbani E protein IgM clone 472C,mAb,NA,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+146,ex2-rep*-2_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,2,Anti SARS Urbani M protein IgM clone 19C,mAb,NA,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+147,ex2-rep*-3_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,3,Anti-SARS Urbani S protein IgG2a clone 240C,mAb,NA,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+148,ex2-rep*-4_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,4,Anti-SARS Urbani S protein IgG2a clone 341C,mAb,NA,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+149,ex2-rep*-5_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,5,Anti-SARS Urbani S protein IgG2a clone 540C,mAb,NA,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+150,ex2-rep*-6_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,6,Anti-SARS N protein IgM clone 42C,mAb,NA,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+151,ex2-rep*-7_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,7,Anti-SARS Urbani S protein igM clone 154C,mAb,NA,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+152,ex2-rep*-8_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,8,Anti-SARS Urbani M protein IgG1 clone 283C,mAb,NA,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+153,ex2-rep*-9_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,9,Guinea pig anti-SARS sera,serum,guinea pig,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+154,ex2-rep*-10_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,10,Rabbit serum Anti-SARS-CoV S protein (LOW titer),serum,rabbit,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+155,ex2-rep*-11_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,11,Rabbit serum Anti-SARS-CoV S protein (MEDIUM titer),serum,rabbit,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+156,ex2-rep*-12_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,12,Rabbit serum Anti-SARS-CoV S protein (HIGH titer),serum,rabbit,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+157,ex2-rep*-13_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,13,Rabbit serum Anti-SARS-CoV S protein (LOW titer) + alhydrogel,serum,rabbit,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+158,ex2-rep*-14_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,14,Rabbit serum Anti-SARS-CoV S protein (MEDIUM titer) + alhydrogel,serum,rabbit,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+159,ex2-rep*-15_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,15,Rabbit serum Anti-SARS-CoV S protein (HIGH titer) + alhydrogel,serum,rabbit,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+160,ex2-rep*-16_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,16,Mouse Anti-Coronavirus OC43,mAb,mouse,NA,NA,NA,NA,NA,NA,EMD Millipore,NA
+161,ex2-rep*-17_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,17,MERS-CoV Nucleocapsid  Mouse,mAb,mouse,NA,NA,NA,NA,NA,NA,Sino,NA
+162,ex2-rep*-18_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,18,MERS-CoV Nucleocapsid  Rabbit,pAb,rabbit,NA,NA,NA,NA,NA,NA,Sino,NA
+163,ex2-rep*-19_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,19,SARS-CoV Spike Antibody clone D006,mAb,NA,NA,NA,NA,NA,NA,NA,Sino,NA
+164,ex2-rep*-20_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,20,SARS-CoV Nucleoprotein/NP Antibody  Rabbit clone 001,mAb,rabbit,NA,NA,NA,NA,NA,NA,Sino,NA
+165,ex2-rep*-21_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,21,SARS-CoV Nucleoprotein/NP Antiobdy  Rabbit clone 040,mAb,rabbit,NA,NA,NA,NA,NA,NA,Sino,NA
+166,ex2-rep*-22_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,22,SARS-CoV Spike Antibody clone D001,mAb,NA,NA,NA,NA,NA,NA,NA,Sino,NA
+167,ex2-rep*-23_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,23,SARS-CoV-2 (2019-nCoV) Nucleoprotein/NP Antibody  Rabbit clone 019,mAb,rabbit,NA,NA,NA,NA,NA,NA,Sino,NA
+168,ex2-rep*-24_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,24,SARS-CoV Spike Antibody clone D003,mAb,NA,NA,NA,NA,NA,NA,NA,Sino,NA
+169,ex2-rep*-25_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,25,SARS-CoV Spike Antibody clone D002,mAb,NA,NA,NA,NA,NA,NA,NA,Sino,NA
+170,ex2-rep*-26_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,26,SARS-CoV Spike Antibody clone D005,mAb,NA,NA,NA,NA,NA,NA,NA,Sino,NA
+171,ex2-rep*-27_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,27,SARS-CoV Nucleoprotein/NP Antibody  Rabbit clone 004,mAb,rabbit,NA,NA,NA,NA,NA,NA,Sino,NA
+172,ex2-rep*-28_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,28,SARS-CoV Nucleoprotein/NP Antibody  Mouse clone 08,mAb,mouse,NA,NA,NA,NA,NA,NA,Sino,NA
+173,ex2-rep*-29_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,29,SARS-CoV Nucleoprotein/NP Antibody  Mouse clone 05,mAb,mouse,NA,NA,NA,NA,NA,NA,Sino,NA
+174,ex2-rep*-30_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,30,MERS-CoV Nucleocapsid Protein Antibody  Rabbit,pAb,rabbit,NA,NA,NA,NA,NA,NA,Sino,NA
+175,ex2-rep*-31_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,31,CR3022 SARS-CoV/SARS-CoV-2 cross-reactive  RBD domain,mAb,NA,NA,NA,NA,NA,NA,NA,Bloom lab,NA
+176,ex2-rep*-32_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,32,COVID-19 acute inpatient  sample ID 37ff96d0,EDTA plasma,human,12001,NA,NA,NA,15,acute inpatient,Chu lab,pandemic
+177,ex2-rep*-33_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,33,COVID-19 acute inpatient  sample ID 9397810a,EDTA plasma,human,12104,NA,NA,NA,15,acute inpatient,Chu lab,pandemic
+178,ex2-rep*-34_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,34,COVID-19 acute inpatient  sample ID d589c4c5,EDTA plasma,human,12101,NA,NA,NA,11,acute inpatient,Chu lab,pandemic
+179,ex2-rep*-35_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,35,COVID-19 acute inpatient  sample ID bd7724a9,EDTA plasma,human,12004,NA,NA,NA,8,acute inpatient,Chu lab,pandemic
+180,ex2-rep*-36_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,36,COVID-19 convalescent outpatient  sample ID d16ac321,ACD plasma,human,3C,NA,NA,NA,30,conv outpatient 30d,Chu lab,pandemic
+181,ex2-rep*-37_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,37,COVID-19 convalescent outpatient  sample ID a42c00b8,ACD plasma,human,5C,NA,NA,NA,30,conv outpatient 30d,Chu lab,pandemic
+182,ex2-rep*-38_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,38,COVID-19 convalescent outpatient  sample ID 62899754,ACD plasma,human,7C,NA,NA,NA,30,conv outpatient 30d,Chu lab,pandemic
+183,ex2-rep*-39_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,39,COVID-19 convalescent outpatient  sample ID 332e3eb3,ACD plasma,human,17C,NA,NA,NA,30,conv outpatient 30d,Chu lab,pandemic
+184,ex2-rep*-40_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,40,COVID-19 convalescent outpatient  sample ID 9e35cd56,ACD plasma,human,19C,NA,NA,NA,30,conv outpatient 30d,Chu lab,pandemic
+185,ex2-rep*-41_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,41,deidentified healthy adult  sample ID 1a,serum,human,1a,NA,NA,NA,NA,healthy adult,Chu lab,pre
+186,ex2-rep*-42_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,42,deidentified healthy adult  sample ID 4a,serum,human,4a,NA,NA,NA,NA,healthy adult,Chu lab,pre
+187,ex2-rep*-43_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,43,deidentified healthy adult  sample ID 7a,serum,human,7a,NA,NA,NA,NA,healthy adult,Chu lab,pre
+188,ex2-rep*-44_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,44,deidentified healthy adult  sample ID 10a,serum,human,10a,NA,NA,NA,NA,healthy adult,Chu lab,pre
+189,ex2-rep*-45_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,empirical,45,deidentified healthy adult  sample ID 13a,serum,human,13a,NA,NA,NA,NA,healthy adult,Chu lab,pre
+190,ex2-rep*-46_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,HIV_positive_control,240D,240D HIV mAb,mAb,NA,NA,NA,NA,NA,NA,NA,NA,NA
+191,ex2-rep*-47-beads_*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,beads_only,NA,beads only ,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+192,ex2-rep*-48-library*R1*,cov,20-04-21-cov2-ex2,caitlin,SUB2,library,NA,input library,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+193,ex3-rep*-1_*R1*,cov,20-04-25-cov2-ex3,mackenzie,SUB2,empirical,1,Anti-SARS Urbani E protein IgM clone 472C,mAb,NA,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+194,ex3-rep*-2_*R1*,cov,20-04-25-cov2-ex3,mackenzie,SUB2,empirical,2,Anti SARS Urbani M protein IgM clone 19C,mAb,NA,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+195,ex3-rep*-3_*R1*,cov,20-04-25-cov2-ex3,mackenzie,SUB2,empirical,3,Anti-SARS Urbani S protein IgG2a clone 240C,mAb,NA,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+196,ex3-rep*-4_*R1*,cov,20-04-25-cov2-ex3,mackenzie,SUB2,empirical,4,Anti-SARS Urbani S protein IgG2a clone 341C,mAb,NA,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+197,ex3-rep*-5_*R1*,cov,20-04-25-cov2-ex3,mackenzie,SUB2,empirical,5,Anti-SARS Urbani S protein IgG2a clone 540C,mAb,NA,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+198,ex3-rep*-6_*R1*,cov,20-04-25-cov2-ex3,mackenzie,SUB2,empirical,6,Anti-SARS N protein IgM clone 42C,mAb,NA,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+199,ex3-rep*-7_*R1*,cov,20-04-25-cov2-ex3,mackenzie,SUB2,empirical,7,Anti-SARS Urbani S protein igM clone 154C,mAb,NA,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+200,ex3-rep*-8_*R1*,cov,20-04-25-cov2-ex3,mackenzie,SUB2,empirical,8,Anti-SARS Urbani M protein IgG1 clone 283C,mAb,NA,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+201,ex3-rep*-9_*R1*,cov,20-04-25-cov2-ex3,mackenzie,SUB2,empirical,16,Mouse Anti-Coronavirus OC43,mAb,mouse,NA,NA,NA,NA,NA,NA,EMD Millipore,NA
+202,ex3-rep*-10_*R1*,cov,20-04-25-cov2-ex3,mackenzie,SUB2,empirical,31,CR3022 SARS-CoV/SARS-CoV-2 cross-reactive  RBD domain,mAb,NA,NA,NA,NA,NA,NA,NA,Bloom lab,NA
+203,ex3-rep*-11_*R1*,cov,20-04-25-cov2-ex3,mackenzie,SUB2,empirical,32,COVID-19 acute inpatient  sample ID 37ff96d0,EDTA plasma,human,12001,NA,NA,NA,15,acute inpatient,Chu lab,pandemic
+204,ex3-rep*-12_*R1*,cov,20-04-25-cov2-ex3,mackenzie,SUB2,empirical,33,COVID-19 acute inpatient  sample ID 9397810a,EDTA plasma,human,12104,NA,NA,NA,15,acute inpatient,Chu lab,pandemic
+205,ex3-rep*-13_*R1*,cov,20-04-25-cov2-ex3,mackenzie,SUB2,empirical,34,COVID-19 acute inpatient  sample ID d589c4c5,EDTA plasma,human,12101,NA,NA,NA,11,acute inpatient,Chu lab,pandemic
+206,ex3-rep*-14_*R1*,cov,20-04-25-cov2-ex3,mackenzie,SUB2,empirical,35,COVID-19 acute inpatient  sample ID bd7724a9,EDTA plasma,human,12004,NA,NA,NA,8,acute inpatient,Chu lab,pandemic
+207,ex3-rep*-15_*R1*,cov,20-04-25-cov2-ex3,mackenzie,SUB2,empirical,36,COVID-19 convalescent outpatient  sample ID d16ac321,ACD plasma,human,3C,NA,NA,NA,30,conv outpatient 30d,Chu lab,pandemic
+208,ex3-rep*-16_*R1*,cov,20-04-25-cov2-ex3,mackenzie,SUB2,empirical,37,COVID-19 convalescent outpatient  sample ID a42c00b8,ACD plasma,human,5C,NA,NA,NA,30,conv outpatient 30d,Chu lab,pandemic
+209,ex3-rep*-17_*R1*,cov,20-04-25-cov2-ex3,mackenzie,SUB2,empirical,38,COVID-19 convalescent outpatient  sample ID 62899754,ACD plasma,human,7C,NA,NA,NA,30,conv outpatient 30d,Chu lab,pandemic
+210,ex3-rep*-18_*R1*,cov,20-04-25-cov2-ex3,mackenzie,SUB2,empirical,39,COVID-19 convalescent outpatient  sample ID 332e3eb3,ACD plasma,human,17C,NA,NA,NA,30,conv outpatient 30d,Chu lab,pandemic
+211,ex3-rep*-19_*R1*,cov,20-04-25-cov2-ex3,mackenzie,SUB2,empirical,40,COVID-19 convalescent outpatient  sample ID 9e35cd56,ACD plasma,human,19C,NA,NA,NA,30,conv outpatient 30d,Chu lab,pandemic
+212,ex3-rep*-20_*R1*,cov,20-04-25-cov2-ex3,mackenzie,SUB2,empirical,41,deidentified healthy adult  sample ID 1a,serum,human,1a,NA,NA,NA,NA,healthy adult,Chu lab,pre
+213,ex3-rep*-21_*R1*,cov,20-04-25-cov2-ex3,mackenzie,SUB2,empirical,42,deidentified healthy adult  sample ID 4a,serum,human,4a,NA,NA,NA,NA,healthy adult,Chu lab,pre
+214,ex3-rep*-22_*R1*,cov,20-04-25-cov2-ex3,mackenzie,SUB2,empirical,43,deidentified healthy adult  sample ID 7a,serum,human,7a,NA,NA,NA,NA,healthy adult,Chu lab,pre
+215,ex3-rep*-23_*R1*,cov,20-04-25-cov2-ex3,mackenzie,SUB2,empirical,44,deidentified healthy adult  sample ID 10a,serum,human,10a,NA,NA,NA,NA,healthy adult,Chu lab,pre
+216,ex3-rep*-24_*R1*,cov,20-04-25-cov2-ex3,mackenzie,SUB2,empirical,45,deidentified healthy adult  sample ID 13a,serum,human,13a,NA,NA,NA,NA,healthy adult,Chu lab,pre
+217,ex3-rep*-25_*R1*,cov,20-04-25-cov2-ex3,mackenzie,SUB2,HIV_positive_control,NA,240-D (gp41 mAb),mAb,NA,NA,NA,NA,NA,NA,NA,NA,NA
+218,ex3-rep*-26_*R1*,cov,20-04-25-cov2-ex3,mackenzie,SUB2,empirical,NA,Kenya VA plasma pool,plasma,human,NA,NA,NA,NA,NA,NA,QRS cohort,NA
+219,ex3-rep*-27-beads_*R1*,cov,20-04-25-cov2-ex3,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+220,ex3-rep*-28-library*R1*,cov,20-04-25-cov2-ex3,mackenzie,SUB2,library,NA,input library,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+221,4A-rep*-1_*R1*,cov,20-05-14-cov2-ex4a,caitlin,SUB2,empirical,3,Anti-SARS Urbani S protein IgG2a clone 240C,mAb,NA,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+222,4A-rep*-2_*R1*,cov,20-05-14-cov2-ex4a,caitlin,SUB2,empirical,4,Anti-SARS Urbani S protein IgG2a clone 341C,mAb,NA,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+223,4A-rep*-3_*R1*,cov,20-05-14-cov2-ex4a,caitlin,SUB2,empirical,5,Anti-SARS Urbani S protein IgG2a clone 540C,mAb,NA,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+224,4A-rep*-4_*R1*,cov,20-05-14-cov2-ex4a,caitlin,SUB2,empirical,9,Guinea pig anti-SARS sera,serum,guinea pig,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+225,4A-rep*-5_*R1*,cov,20-05-14-cov2-ex4a,caitlin,SUB2,empirical,14,Rabbit serum Anti-SARS-CoV S protein (MEDIUM titer) + alhydrogel,serum,rabbit,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+226,4A-rep*-6_*R1*,cov,20-05-14-cov2-ex4a,caitlin,SUB2,empirical,16,Mouse Anti-Coronavirus OC43,mAb,mouse,NA,NA,NA,NA,NA,NA,EMD Millipore,NA
+227,4A-rep*-7_*R1*,cov,20-05-14-cov2-ex4a,caitlin,SUB2,empirical,21,SARS-CoV Nucleoprotein/NP Antiobdy  Rabbit clone 040,mAb,rabbit,NA,NA,NA,NA,NA,NA,Sino,NA
+228,4A-rep*-8_*R1*,cov,20-05-14-cov2-ex4a,caitlin,SUB2,empirical,31,CR3022 SARS-CoV/SARS-CoV-2 cross-reactive  RBD domain,mAb,NA,NA,NA,NA,NA,NA,NA,Bloom lab,NA
+229,4A-rep*-9_*R1*,cov,20-05-14-cov2-ex4a,caitlin,SUB2,empirical,32,COVID-19 acute inpatient  sample ID 37ff96d0,EDTA plasma,human,12001,NA,NA,NA,15,acute inpatient,Chu lab,pandemic
+230,4A-rep*-10_*R1*,cov,20-05-14-cov2-ex4a,caitlin,SUB2,empirical,33,COVID-19 acute inpatient  sample ID 9397810a,EDTA plasma,human,12104,NA,NA,NA,15,acute inpatient,Chu lab,pandemic
+231,4A-rep*-11_*R1*,cov,20-05-14-cov2-ex4a,caitlin,SUB2,empirical,34,COVID-19 acute inpatient  sample ID d589c4c5,EDTA plasma,human,12101,NA,NA,NA,11,acute inpatient,Chu lab,pandemic
+232,4A-rep*-12_*R1*,cov,20-05-14-cov2-ex4a,caitlin,SUB2,empirical,35,COVID-19 acute inpatient  sample ID bd7724a9,EDTA plasma,human,12004,NA,NA,NA,8,acute inpatient,Chu lab,pandemic
+233,4A-rep*-13_*R1*,cov,20-05-14-cov2-ex4a,caitlin,SUB2,empirical,36,COVID-19 convalescent outpatient  sample ID d16ac321,ACD plasma,human,3C,NA,NA,NA,30,conv outpatient 30d,Chu lab,pandemic
+234,4A-rep*-14_*R1*,cov,20-05-14-cov2-ex4a,caitlin,SUB2,empirical,37,COVID-19 convalescent outpatient  sample ID a42c00b8,ACD plasma,human,5C,NA,NA,NA,30,conv outpatient 30d,Chu lab,pandemic
+235,4A-rep*-15_*R1*,cov,20-05-14-cov2-ex4a,caitlin,SUB2,empirical,38,COVID-19 convalescent outpatient  sample ID 62899754,ACD plasma,human,7C,NA,NA,NA,30,conv outpatient 30d,Chu lab,pandemic
+236,4A-rep*-16_*R1*,cov,20-05-14-cov2-ex4a,caitlin,SUB2,empirical,39,COVID-19 convalescent outpatient  sample ID 332e3eb3,ACD plasma,human,17C,NA,NA,NA,30,conv outpatient 30d,Chu lab,pandemic
+237,4A-rep*-17_*R1*,cov,20-05-14-cov2-ex4a,caitlin,SUB2,empirical,40,COVID-19 convalescent outpatient  sample ID 9e35cd56,ACD plasma,human,19C,NA,NA,NA,30,conv outpatient 30d,Chu lab,pandemic
+238,4A-rep*-18_*R1*,cov,20-05-14-cov2-ex4a,caitlin,SUB2,empirical,41,deidentified healthy adult  sample ID 1a,serum,human,1a,NA,NA,NA,NA,healthy adult,Chu lab,pre
+239,4A-rep*-19_*R1*,cov,20-05-14-cov2-ex4a,caitlin,SUB2,empirical,42,deidentified healthy adult  sample ID 4a,serum,human,4a,NA,NA,NA,NA,healthy adult,Chu lab,pre
+240,4A-rep*-20_*R1*,cov,20-05-14-cov2-ex4a,caitlin,SUB2,empirical,43,deidentified healthy adult  sample ID 7a,serum,human,7a,NA,NA,NA,NA,healthy adult,Chu lab,pre
+241,4A-rep*-21_*R1*,cov,20-05-14-cov2-ex4a,caitlin,SUB2,empirical,44,deidentified healthy adult  sample ID 10a,serum,human,10a,NA,NA,NA,NA,healthy adult,Chu lab,pre
+242,4A-rep*-22_*R1*,cov,20-05-14-cov2-ex4a,caitlin,SUB2,empirical,45,deidentified healthy adult  sample ID 13a,serum,human,13a,NA,NA,NA,NA,healthy adult,Chu lab,pre
+243,4A-rep*-23_*R1*,cov,20-05-14-cov2-ex4a,caitlin,SUB2,empirical,240D,240D standard aliquot (blue tube),mAb,NA,NA,NA,NA,NA,NA,NA,NA,NA
+244,4A-rep*-24_*R1*,cov,20-05-14-cov2-ex4a,caitlin,SUB2,empirical,240D,240D alqiuot 2 (clear tube),mAb,NA,NA,NA,NA,NA,NA,NA,NA,NA
+245,4A-rep*-25_*R1*,cov,20-05-14-cov2-ex4a,caitlin,SUB2,empirical,F240,F240 HIV mAb,mAb,NA,NA,NA,NA,NA,NA,NA,NA,NA
+246,4A-rep*-26-beads_*R1*,cov,20-05-14-cov2-ex4a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+247,4A-rep*-27-library*R1*,cov,20-05-14-cov2-ex4a,caitlin,SUB2,library,NA,input library,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+248,4B-rep*-1_*R1*,cov,20-05-15-cov2-ex4b,hannah,MEGSUB,empirical,3,Anti-SARS Urbani S protein IgG2a clone 240C,mAb,NA,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+249,4B-rep*-2_*R1*,cov,20-05-15-cov2-ex4b,hannah,MEGSUB,empirical,4,Anti-SARS Urbani S protein IgG2a clone 341C,mAb,NA,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+250,4B-rep*-3_*R1*,cov,20-05-15-cov2-ex4b,hannah,MEGSUB,empirical,5,Anti-SARS Urbani S protein IgG2a clone 540C,mAb,NA,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+251,4B-rep*-4_*R1*,cov,20-05-15-cov2-ex4b,hannah,MEGSUB,empirical,9,Guinea pig anti-SARS sera,serum,guinea pig,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+252,4B-rep*-5_*R1*,cov,20-05-15-cov2-ex4b,hannah,MEGSUB,empirical,14,Rabbit serum Anti-SARS-CoV S protein (MEDIUM titer) + alhydrogel,serum,rabbit,NA,NA,NA,NA,NA,NA,BEI/ATCC,NA
+253,4B-rep*-6_*R1*,cov,20-05-15-cov2-ex4b,hannah,MEGSUB,empirical,16,Mouse Anti-Coronavirus OC43,mAb,mouse,NA,NA,NA,NA,NA,NA,EMD Millipore,NA
+254,4B-rep*-7_*R1*,cov,20-05-15-cov2-ex4b,hannah,MEGSUB,empirical,21,"SARS-CoV Nucleoprotein/NP Antiobdy, Rabbit clone 040",mAb,rabbit,NA,NA,NA,NA,NA,NA,Sino,NA
+255,4B-rep*-8_*R1*,cov,20-05-15-cov2-ex4b,hannah,MEGSUB,empirical,31,"CR3022 SARS-CoV/SARS-CoV-2 cross-reactive, RBD domain",mAb,NA,NA,NA,NA,NA,NA,NA,Bloom lab,NA
+256,4B-rep*-9_*R1*,cov,20-05-15-cov2-ex4b,hannah,MEGSUB,empirical,32,"COVID-19 acute inpatient, sample ID 37ff96d0",EDTA plasma,human,12001,NA,NA,NA,15,acute inpatient,Chu lab,pandemic
+257,4B-rep*-10_*R1*,cov,20-05-15-cov2-ex4b,hannah,MEGSUB,empirical,33,"COVID-19 acute inpatient, sample ID 9397810a",EDTA plasma,human,12104,NA,NA,NA,15,acute inpatient,Chu lab,pandemic
+258,4B-rep*-11_*R1*,cov,20-05-15-cov2-ex4b,hannah,MEGSUB,empirical,34,"COVID-19 acute inpatient, sample ID d589c4c5",EDTA plasma,human,12101,NA,NA,NA,11,acute inpatient,Chu lab,pandemic
+259,4B-rep*-12_*R1*,cov,20-05-15-cov2-ex4b,hannah,MEGSUB,empirical,35,"COVID-19 acute inpatient, sample ID bd7724a9",EDTA plasma,human,12004,NA,NA,NA,8,acute inpatient,Chu lab,pandemic
+260,4B-rep*-13_*R1*,cov,20-05-15-cov2-ex4b,hannah,MEGSUB,empirical,36,"COVID-19 convalescent outpatient, sample ID d16ac321",ACD plasma,human,3C,NA,NA,NA,30,conv outpatient 30d,Chu lab,pandemic
+261,4B-rep*-14_*R1*,cov,20-05-15-cov2-ex4b,hannah,MEGSUB,empirical,37,"COVID-19 convalescent outpatient, sample ID a42c00b8",ACD plasma,human,5C,NA,NA,NA,30,conv outpatient 30d,Chu lab,pandemic
+262,4B-rep*-15_*R1*,cov,20-05-15-cov2-ex4b,hannah,MEGSUB,empirical,38,"COVID-19 convalescent outpatient, sample ID 62899754",ACD plasma,human,7C,NA,NA,NA,30,conv outpatient 30d,Chu lab,pandemic
+263,4B-rep*-16_*R1*,cov,20-05-15-cov2-ex4b,hannah,MEGSUB,empirical,39,"COVID-19 convalescent outpatient, sample ID 332e3eb3",ACD plasma,human,17C,NA,NA,NA,30,conv outpatient 30d,Chu lab,pandemic
+264,4B-rep*-17_*R1*,cov,20-05-15-cov2-ex4b,hannah,MEGSUB,empirical,40,"COVID-19 convalescent outpatient, sample ID 9e35cd56",ACD plasma,human,19C,NA,NA,NA,30,conv outpatient 30d,Chu lab,pandemic
+265,4B-rep*-18_*R1*,cov,20-05-15-cov2-ex4b,hannah,MEGSUB,empirical,41,"deidentified healthy adult, sample ID 1a",serum,human,1a,NA,NA,NA,NA,healthy adult,Chu lab,pre
+266,4B-rep*-19_*R1*,cov,20-05-15-cov2-ex4b,hannah,MEGSUB,empirical,42,"deidentified healthy adult, sample ID 4a",serum,human,4a,NA,NA,NA,NA,healthy adult,Chu lab,pre
+267,4B-rep*-20_*R1*,cov,20-05-15-cov2-ex4b,hannah,MEGSUB,empirical,43,"deidentified healthy adult, sample ID 7a",serum,human,7a,NA,NA,NA,NA,healthy adult,Chu lab,pre
+268,4B-rep*-21_*R1*,cov,20-05-15-cov2-ex4b,hannah,MEGSUB,empirical,44,"deidentified healthy adult, sample ID 10a",serum,human,10a,NA,NA,NA,NA,healthy adult,Chu lab,pre
+269,4B-rep*-22_*R1*,cov,20-05-15-cov2-ex4b,hannah,MEGSUB,empirical,45,"deidentified healthy adult, sample ID 13a",serum,human,13a,NA,NA,NA,NA,healthy adult,Chu lab,pre
+270,4B-rep*-23_*R1*,cov,20-05-15-cov2-ex4b,hannah,MEGSUB,empirical,240D,240D standard aliquot (blue tube),mAb,NA,NA,NA,NA,NA,NA,NA,NA,
+271,4B-rep*-25_*R1*,cov,20-05-15-cov2-ex4b,hannah,MEGSUB,empirical,F240,F240 HIV mAb,mAb,NA,NA,NA,NA,NA,NA,NA,NA,
+272,4B-rep*-26-beads_*R1*,cov,20-05-15-cov2-ex4b,hannah,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+273,4B-rep*-27-library*R1*,cov,20-05-15-cov2-ex4b,hannah,MEGSUB,library,NA,input library,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+274,rep*-1_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,41,deidentified healthy adult sample ID 1a,serum,human,1a,NA,NA,NA,NA,healthy adult,Helen Chu,pre
+275,rep*-2_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,42,deidentified healthy adult sample ID 4a,serum,human,4a,NA,NA,NA,NA,healthy adult,Helen Chu,pre
+276,rep*-3_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,43,deidentified healthy adult sample ID 7a,serum,human,7a,NA,NA,NA,NA,healthy adult,Helen Chu,pre
+277,rep*-4_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,44,deidentified healthy adult sample ID 10a,serum,human,10a,NA,NA,NA,NA,healthy adult,Helen Chu,pre
+278,rep*-5_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,45,deidentified healthy adult sample ID 13a,serum,human,13a,NA,NA,NA,NA,healthy adult,Helen Chu,pre
+279,rep*-6_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,36,COVID-19 convalescent outpatient sample ID d16ac321,ACD plasma,human,3C,NA,NA,NA,30,conv outpatient 30d,Helen Chu,pandemic
+280,rep*-7_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,37,COVID-19 convalescent outpatient sample ID a42c00b8,ACD plasma,human,5C,NA,NA,NA,30,conv outpatient 30d,Helen Chu,pandemic
+281,rep*-8_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,38,COVID-19 convalescent outpatient sample ID 62899754,ACD plasma,human,7C,NA,NA,NA,30,conv outpatient 30d,Helen Chu,pandemic
+282,rep*-9_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,39,COVID-19 convalescent outpatient sample ID 332e3eb3,ACD plasma,human,17C,NA,NA,NA,30,conv outpatient 30d,Helen Chu,pandemic
+283,rep*-10_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,40,COVID-19 convalescent outpatient sample ID 9e35cd56,ACD plasma,human,19C,NA,NA,NA,30,conv outpatient 30d,Helen Chu,pandemic
+284,rep*-11_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,49,Chu-208bd2e9,ACD plasma,human,3C,47,Female,White,72,conv outpatient 60d,Helen Chu,pandemic
+285,rep*-12_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,50,Chu-b079f545,ACD plasma,human,4C,48,Female,White,31,conv outpatient 30d,Helen Chu,pandemic
+286,rep*-13_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,51,Chu-7490cf2c,ACD plasma,human,4C,48,Female,White,63,conv outpatient 60d,Helen Chu,pandemic
+287,rep*-14_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,52,Chu-42966da4,ACD plasma,human,5C,43,Female,White,60,conv outpatient 60d,Helen Chu,pandemic
+288,rep*-15_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,53,Chu-00a56f6b,ACD plasma,human,6C,64,Female,White,33,conv outpatient 30d,Helen Chu,pandemic
+289,rep*-16_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,54,Chu-30b5b54b,ACD plasma,human,6C,64,Female,White,76,conv outpatient 60d,Helen Chu,pandemic
+290,rep*-17_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,55,Chu-c440fef8,ACD plasma,human,7C,65,Male,White,71,conv outpatient 60d,Helen Chu,pandemic
+291,rep*-18_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,56,Chu-20eb5f95,ACD plasma,human,8C,22,Male,White,29,conv outpatient 30d,Helen Chu,pandemic
+292,rep*-19_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,57,Chu-94152e0f,ACD plasma,human,8C,22,Male,White,74,conv outpatient 60d,Helen Chu,pandemic
+293,rep*-20_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,58,Chu-e45c7c6f,ACD plasma,human,10C,31,Female,White,31,conv outpatient 30d,Helen Chu,pandemic
+294,rep*-21_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,59,Chu-d5644f2a,ACD plasma,human,10C,31,Female,White,67,conv outpatient 60d,Helen Chu,pandemic
+295,rep*-22_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,60,Chu-b6b14fc5,ACD plasma,human,11C,56,Male,White,26,conv outpatient 30d,Helen Chu,pandemic
+296,rep*-23_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,61,Chu-49e49b80,ACD plasma,human,11C,56,Male,White,55,conv outpatient 60d,Helen Chu,pandemic
+297,rep*-24_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,62,Chu-6312541c,ACD plasma,human,12C,68,Male,White,61,conv outpatient 60d,Helen Chu,pandemic
+298,rep*-25_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,63,Chu-693db601,ACD plasma,human,12C,68,Male,White,91,conv outpatient 90d,Helen Chu,pandemic
+299,rep*-26_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,64,Chu-53cd5813,ACD plasma,human,15C,28,Female,White,34,conv outpatient 30d,Helen Chu,pandemic
+300,rep*-27_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,65,Chu-aeeff39b,ACD plasma,human,15C,28,Female,White,67,conv outpatient 60d,Helen Chu,pandemic
+301,rep*-28_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,66,Chu-2eae98c3,ACD plasma,human,17C,29,Male,Asian,67,conv outpatient 60d,Helen Chu,pandemic
+302,rep*-29_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,67,Chu-6ca13f43,ACD plasma,human,19C,18,Female,White,61,conv outpatient 60d,Helen Chu,pandemic
+303,rep*-30_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,68,Chu-f3e13886,ACD plasma,human,20C,30,Male,White,34,conv outpatient 30d,Helen Chu,pandemic
+304,rep*-31_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,69,Chu-a5361107,ACD plasma,human,20C,30,Male,White,62,conv outpatient 60d,Helen Chu,pandemic
+305,rep*-32_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,70,Chu-caac6519,ACD plasma,human,21C,36,Female,White,26,conv outpatient 30d,Helen Chu,pandemic
+306,rep*-33_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,71,Chu-c3d86324,ACD plasma,human,21C,36,Female,White,58,conv outpatient 60d,Helen Chu,pandemic
+307,rep*-34_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,72,Chu-d29ef58b,ACD plasma,human,22C,65,Male,White,28,conv outpatient 30d,Helen Chu,pandemic
+308,rep*-35_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,73,Chu-1afe94f4,ACD plasma,human,22C,65,Male,White,66,conv outpatient 60d,Helen Chu,pandemic
+309,rep*-36_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,74,Chu-fcc31a18,ACD plasma,human,23C,65,Female,White,26,conv outpatient 30d,Helen Chu,pandemic
+310,rep*-37_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,75,Chu-ca561c6b,ACD plasma,human,23C,65,Female,White,64,conv outpatient 60d,Helen Chu,pandemic
+311,rep*-38_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,76,Chu-54b7ea36,ACD plasma,human,25C,52,Female,White,48,conv outpatient 30d,Helen Chu,pandemic
+312,rep*-39_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,77,Chu-ef71f069,ACD plasma,human,25C,52,Female,White,77,conv outpatient 60d,Helen Chu,pandemic
+313,rep*-40_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,78,Chu-374e2105,ACD plasma,human,27C,52,Male,White,35,conv outpatient 30d,Helen Chu,pandemic
+314,rep*-41_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,79,Chu-0f465cfc,ACD plasma,human,27C,52,Male,White,69,conv outpatient 60d,Helen Chu,pandemic
+315,rep*-42_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,80,Chu-62b982f7,ACD plasma,human,32C,36,Male,White,30,conv outpatient 30d,Helen Chu,pandemic
+316,rep*-43_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,81,Chu-fdece405,ACD plasma,human,32C,36,Male,White,57,conv outpatient 60d,Helen Chu,pandemic
+317,rep*-44_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,82,Chu-691936a9,ACD plasma,human,35C,29,Male,White,43,conv outpatient 30d,Helen Chu,pandemic
+318,rep*-45_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,empirical,83,Chu-f634c858,ACD plasma,human,35C,29,Male,White,73,conv outpatient 60d,Helen Chu,pandemic
+319,rep*-46_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,HIV_positive_control,F240,F240 HIV mAb,mAb,NA,NA,NA,NA,NA,NA,NA,NA,
+320,rep*-47-beads_*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+321,rep*-48-input*R1*,cov,20-06-11-cov2-ex6,caitlin,MEGSUB,library,NA,input library,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+322,ex7-rep1-1-*R1*,cov,20-06-18-cov2-ex7.1,mackenzie,MEGSUB,empirical,49,Chu-208bd2e9,ACD plasma,human,3C,47,Female,White,72,conv outpatient 60d,Helen Chu,pandemic
+323,ex7-rep1-2-*R1*,cov,20-06-18-cov2-ex7.1,mackenzie,MEGSUB,empirical,54,Chu-30b5b54b,ACD plasma,human,6C,64,Female,White,76,conv outpatient 60d,Helen Chu,pandemic
+324,ex7-rep1-3-*-beads*R1*,cov,20-06-18-cov2-ex7.1,mackenzie,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+325,ex7-rep2-1-*R1*,cov,20-06-18-cov2-ex7.1,mackenzie,MEGSUB,empirical,49,Chu-208bd2e9,ACD plasma,human,3C,47,Female,White,72,conv outpatient 60d,Helen Chu,pandemic
+326,ex7-rep2-2-*R1*,cov,20-06-18-cov2-ex7.1,mackenzie,MEGSUB,empirical,54,Chu-30b5b54b,ACD plasma,human,6C,64,Female,White,76,conv outpatient 60d,Helen Chu,pandemic
+327,ex7-rep2-3-*-beads*R1*,cov,20-06-18-cov2-ex7.1,mackenzie,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+328,ex7-rep3-1-*R1*,cov,20-06-18-cov2-ex7.1,mackenzie,MEGSUB,empirical,49,Chu-208bd2e9,ACD plasma,human,3C,47,Female,White,72,conv outpatient 60d,Helen Chu,pandemic
+329,ex7-rep3-2-*R1*,cov,20-06-18-cov2-ex7.1,mackenzie,MEGSUB,empirical,54,Chu-30b5b54b,ACD plasma,human,6C,64,Female,White,76,conv outpatient 60d,Helen Chu,pandemic
+330,ex7-rep3-3-*-beads*R1*,cov,20-06-18-cov2-ex7.1,mackenzie,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+331,ex7-rep4-1-*R1*,cov,20-06-18-cov2-ex7.1,mackenzie,MEGSUB,empirical,49,Chu-208bd2e9,ACD plasma,human,3C,47,Female,White,72,conv outpatient 60d,Helen Chu,pandemic
+332,ex7-rep4-2-*R1*,cov,20-06-18-cov2-ex7.1,mackenzie,MEGSUB,empirical,54,Chu-30b5b54b,ACD plasma,human,6C,64,Female,White,76,conv outpatient 60d,Helen Chu,pandemic
+333,ex7-rep4-3-*-beads*R1*,cov,20-06-18-cov2-ex7.1,mackenzie,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+334,ex7-rep5-1-*R1*,cov,20-06-18-cov2-ex7.1,mackenzie,MEGSUB,empirical,49,Chu-208bd2e9,ACD plasma,human,3C,47,Female,White,72,conv outpatient 60d,Helen Chu,pandemic
+335,ex7-rep5-2-*R1*,cov,20-06-18-cov2-ex7.1,mackenzie,MEGSUB,empirical,54,Chu-30b5b54b,ACD plasma,human,6C,64,Female,White,76,conv outpatient 60d,Helen Chu,pandemic
+336,ex7-rep5-3-*-beads*R1*,cov,20-06-18-cov2-ex7.1,mackenzie,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+337,*SUB1*R1*,cov,20-05-12-cov2-libs,caitlin,SUB1,library,NA,input library,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+338,*SUB2*R1*,cov,20-05-12-cov2-libs,caitlin,SUB2,library,NA,input library,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+339,*NOSUB*R1*,cov,20-05-12-cov2-libs,caitlin,NOSUB,library,NA,input library,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+340,*SUB-MEG*R1*,cov,20-05-12-cov2-libs,caitlin,MEGSUB,library,NA,input library,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+341,ex8-rep*-1_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,41,deidentified healthy adult sample ID 1a,serum,human,1a,NA,NA,NA,NA,healthy adult,Helen Chu,pre
+342,ex8-rep*-2_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,42,deidentified healthy adult sample ID 4a,serum,human,4a,NA,NA,NA,NA,healthy adult,Helen Chu,pre
+343,ex8-rep*-3_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,43,deidentified healthy adult sample ID 7a,serum,human,7a,NA,NA,NA,NA,healthy adult,Helen Chu,pre
+344,ex8-rep*-4_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,44,deidentified healthy adult sample ID 10a,serum,human,10a,NA,NA,NA,NA,healthy adult,Helen Chu,pre
+345,ex8-rep*-5_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,45,deidentified healthy adult sample ID 13a,serum,human,13a,NA,NA,NA,NA,healthy adult,Helen Chu,pre
+346,ex8-rep*-6_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,36,COVID-19 convalescent outpatient sample ID d16ac321,ACD plasma,human,3C,NA,NA,NA,30,conv outpatient 30d,Helen Chu,pandemic
+347,ex8-rep*-7_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,37,COVID-19 convalescent outpatient sample ID a42c00b8,ACD plasma,human,5C,NA,NA,NA,30,conv outpatient 30d,Helen Chu,pandemic
+348,ex8-rep*-8_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,38,COVID-19 convalescent outpatient sample ID 62899754,ACD plasma,human,7C,NA,NA,NA,30,conv outpatient 30d,Helen Chu,pandemic
+349,ex8-rep*-9_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,39,COVID-19 convalescent outpatient sample ID 332e3eb3,ACD plasma,human,17C,NA,NA,NA,30,conv outpatient 30d,Helen Chu,pandemic
+350,ex8-rep*-10_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,40,COVID-19 convalescent outpatient sample ID 9e35cd56,ACD plasma,human,19C,NA,NA,NA,30,conv outpatient 30d,Helen Chu,pandemic
+351,ex8-rep*-11_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,49,Chu-208bd2e9,ACD plasma,human,3C,47,Female,White,72,conv outpatient 60d,Helen Chu,pandemic
+352,ex8-rep*-12_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,50,Chu-b079f545,ACD plasma,human,4C,48,Female,White,31,conv outpatient 30d,Helen Chu,pandemic
+353,ex8-rep*-13_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,51,Chu-7490cf2c,ACD plasma,human,4C,48,Female,White,63,conv outpatient 60d,Helen Chu,pandemic
+354,ex8-rep*-14_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,52,Chu-42966da4,ACD plasma,human,5C,43,Female,White,60,conv outpatient 60d,Helen Chu,pandemic
+355,ex8-rep*-15_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,53,Chu-00a56f6b,ACD plasma,human,6C,64,Female,White,33,conv outpatient 30d,Helen Chu,pandemic
+356,ex8-rep*-16_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,54,Chu-30b5b54b,ACD plasma,human,6C,64,Female,White,76,conv outpatient 60d,Helen Chu,pandemic
+357,ex8-rep*-17_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,55,Chu-c440fef8,ACD plasma,human,7C,65,Male,White,71,conv outpatient 60d,Helen Chu,pandemic
+358,ex8-rep*-18_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,56,Chu-20eb5f95,ACD plasma,human,8C,22,Male,White,29,conv outpatient 30d,Helen Chu,pandemic
+359,ex8-rep*-19_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,57,Chu-94152e0f,ACD plasma,human,8C,22,Male,White,74,conv outpatient 60d,Helen Chu,pandemic
+360,ex8-rep*-20_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,58,Chu-e45c7c6f,ACD plasma,human,10C,31,Female,White,31,conv outpatient 30d,Helen Chu,pandemic
+361,ex8-rep*-21_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,59,Chu-d5644f2a,ACD plasma,human,10C,31,Female,White,67,conv outpatient 60d,Helen Chu,pandemic
+362,ex8-rep*-22_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,60,Chu-b6b14fc5,ACD plasma,human,11C,56,Male,White,26,conv outpatient 30d,Helen Chu,pandemic
+363,ex8-rep*-23_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,61,Chu-49e49b80,ACD plasma,human,11C,56,Male,White,55,conv outpatient 60d,Helen Chu,pandemic
+364,ex8-rep*-24_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,62,Chu-6312541c,ACD plasma,human,12C,68,Male,White,61,conv outpatient 60d,Helen Chu,pandemic
+365,ex8-rep*-25_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,63,Chu-693db601,ACD plasma,human,12C,68,Male,White,91,conv outpatient 90d,Helen Chu,pandemic
+366,ex8-rep*-26_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,64,Chu-53cd5813,ACD plasma,human,15C,28,Female,White,34,conv outpatient 30d,Helen Chu,pandemic
+367,ex8-rep*-27_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,65,Chu-aeeff39b,ACD plasma,human,15C,28,Female,White,67,conv outpatient 60d,Helen Chu,pandemic
+368,ex8-rep*-28_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,66,Chu-2eae98c3,ACD plasma,human,17C,29,Male,Asian,67,conv outpatient 60d,Helen Chu,pandemic
+369,ex8-rep*-29_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,67,Chu-6ca13f43,ACD plasma,human,19C,18,Female,White,61,conv outpatient 60d,Helen Chu,pandemic
+370,ex8-rep*-30_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,68,Chu-f3e13886,ACD plasma,human,20C,30,Male,White,34,conv outpatient 30d,Helen Chu,pandemic
+371,ex8-rep*-31_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,69,Chu-a5361107,ACD plasma,human,20C,30,Male,White,62,conv outpatient 60d,Helen Chu,pandemic
+372,ex8-rep*-32_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,70,Chu-caac6519,ACD plasma,human,21C,36,Female,White,26,conv outpatient 30d,Helen Chu,pandemic
+373,ex8-rep*-33_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,71,Chu-c3d86324,ACD plasma,human,21C,36,Female,White,58,conv outpatient 60d,Helen Chu,pandemic
+374,ex8-rep*-34_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,72,Chu-d29ef58b,ACD plasma,human,22C,65,Male,White,28,conv outpatient 30d,Helen Chu,pandemic
+375,ex8-rep*-35_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,73,Chu-1afe94f4,ACD plasma,human,22C,65,Male,White,66,conv outpatient 60d,Helen Chu,pandemic
+376,ex8-rep*-36_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,74,Chu-fcc31a18,ACD plasma,human,23C,65,Female,White,26,conv outpatient 30d,Helen Chu,pandemic
+377,ex8-rep*-37_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,75,Chu-ca561c6b,ACD plasma,human,23C,65,Female,White,64,conv outpatient 60d,Helen Chu,pandemic
+378,ex8-rep*-38_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,76,Chu-54b7ea36,ACD plasma,human,25C,52,Female,White,48,conv outpatient 30d,Helen Chu,pandemic
+379,ex8-rep*-39_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,77,Chu-ef71f069,ACD plasma,human,25C,52,Female,White,77,conv outpatient 60d,Helen Chu,pandemic
+380,ex8-rep*-40_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,78,Chu-374e2105,ACD plasma,human,27C,52,Male,White,35,conv outpatient 30d,Helen Chu,pandemic
+381,ex8-rep*-41_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,79,Chu-0f465cfc,ACD plasma,human,27C,52,Male,White,69,conv outpatient 60d,Helen Chu,pandemic
+382,ex8-rep*-42_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,80,Chu-62b982f7,ACD plasma,human,32C,36,Male,White,30,conv outpatient 30d,Helen Chu,pandemic
+383,ex8-rep*-43_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,81,Chu-fdece405,ACD plasma,human,32C,36,Male,White,57,conv outpatient 60d,Helen Chu,pandemic
+384,ex8-rep*-44_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,82,Chu-691936a9,ACD plasma,human,35C,29,Male,White,43,conv outpatient 30d,Helen Chu,pandemic
+385,ex8-rep*-45_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,empirical,83,Chu-f634c858,ACD plasma,human,35C,29,Male,White,73,conv outpatient 60d,Helen Chu,pandemic
+386,ex8-rep*-46_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,HIV_positive_control,F240,F240 HIV mAb,mAb,NA,NA,NA,NA,NA,NA,NA,NA,
+387,ex8-rep*-47-beads_*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+388,ex8-rep*-48-input*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,SUB2,library,NA,input library,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+389,ex7-54a-rep*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,MEGSUB,empirical,54,Chu-30b5b54b,ACD plasma,human,6C,64,Female,White,76,conv outpatient 60d,Helen Chu,pandemic
+390,ex7-49a-rep*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,MEGSUB,empirical,49,Chu-208bd2e9,ACD plasma,human,3C,47,Female,White,72,conv outpatient 60d,Helen Chu,pandemic
+391,ex7-49b-rep*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,MEGSUB,empirical,49,Chu-208bd2e9,ACD plasma,human,3C,47,Female,White,72,conv outpatient 60d,Helen Chu,pandemic
+392,ex7-rep*a-beads*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+393,ex7-54b-rep*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,MEGSUB,empirical,54,Chu-30b5b54b,ACD plasma,human,6C,64,Female,White,76,conv outpatient 60d,Helen Chu,pandemic
+394,ex7-49c-rep*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,MEGSUB,empirical,49,Chu-208bd2e9,ACD plasma,human,3C,47,Female,White,72,conv outpatient 60d,Helen Chu,pandemic
+395,ex7-rep*b-beads*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+396,ex7-54c-rep*R1*,cov,20-06-23-cov2-exs7.2-8,caitlin,MEGSUB,empirical,54,Chu-30b5b54b,ACD plasma,human,6C,64,Female,White,76,conv outpatient 60d,Helen Chu,pandemic
+397,ex9a-rep*-1_*R1*,cov,20-06-29-cov2-ex9a,caitlin,MEGSUB,empirical,49,Chu-208bd2e9,ACD plasma,human,3C,47,Female,White,72,conv outpatient 60d,Helen Chu,pandemic
+398,ex9a-rep*-2_*R1*,cov,20-06-29-cov2-ex9a,caitlin,MEGSUB,empirical,51,Chu-7490cf2c,ACD plasma,human,4C,48,Female,White,63,conv outpatient 60d,Helen Chu,pandemic
+399,ex9a-rep*-3_*R1*,cov,20-06-29-cov2-ex9a,caitlin,MEGSUB,empirical,52,Chu-42966da4,ACD plasma,human,5C,43,Female,White,60,conv outpatient 60d,Helen Chu,pandemic
+400,ex9a-rep*-4_*R1*,cov,20-06-29-cov2-ex9a,caitlin,MEGSUB,empirical,54,Chu-30b5b54b,ACD plasma,human,6C,64,Female,White,76,conv outpatient 60d,Helen Chu,pandemic
+401,ex9a-rep*-5_*R1*,cov,20-06-29-cov2-ex9a,caitlin,MEGSUB,empirical,55,Chu-c440fef8,ACD plasma,human,7C,65,Male,White,71,conv outpatient 60d,Helen Chu,pandemic
+402,ex9a-rep*-6_*R1*,cov,20-06-29-cov2-ex9a,caitlin,MEGSUB,empirical,57,Chu-94152e0f,ACD plasma,human,8C,22,Male,White,74,conv outpatient 60d,Helen Chu,pandemic
+403,ex9a-rep*-7_*R1*,cov,20-06-29-cov2-ex9a,caitlin,MEGSUB,empirical,59,Chu-d5644f2a,ACD plasma,human,10C,31,Female,White,67,conv outpatient 60d,Helen Chu,pandemic
+404,ex9a-rep*-8_*R1*,cov,20-06-29-cov2-ex9a,caitlin,MEGSUB,empirical,61,Chu-49e49b80,ACD plasma,human,11C,56,Male,White,55,conv outpatient 60d,Helen Chu,pandemic
+405,ex9a-rep*-9_*R1*,cov,20-06-29-cov2-ex9a,caitlin,MEGSUB,empirical,62,Chu-6312541c,ACD plasma,human,12C,68,Male,White,61,conv outpatient 60d,Helen Chu,pandemic
+406,ex9a-rep*-10_*R1*,cov,20-06-29-cov2-ex9a,caitlin,MEGSUB,empirical,63,Chu-693db601,ACD plasma,human,12C,68,Male,White,91,conv outpatient 90d,Helen Chu,pandemic
+407,ex9a-rep*-11_*R1*,cov,20-06-29-cov2-ex9a,caitlin,MEGSUB,empirical,65,Chu-aeeff39b,ACD plasma,human,15C,28,Female,White,67,conv outpatient 60d,Helen Chu,pandemic
+408,ex9a-rep*-12_*R1*,cov,20-06-29-cov2-ex9a,caitlin,MEGSUB,empirical,66,Chu-2eae98c3,ACD plasma,human,17C,29,Male,Asian,67,conv outpatient 60d,Helen Chu,pandemic
+409,ex9a-rep*-13_*R1*,cov,20-06-29-cov2-ex9a,caitlin,MEGSUB,empirical,67,Chu-6ca13f43,ACD plasma,human,19C,18,Female,White,61,conv outpatient 60d,Helen Chu,pandemic
+410,ex9a-rep*-14_*R1*,cov,20-06-29-cov2-ex9a,caitlin,MEGSUB,empirical,69,Chu-a5361107,ACD plasma,human,20C,30,Male,White,62,conv outpatient 60d,Helen Chu,pandemic
+411,ex9a-rep*-15_*R1*,cov,20-06-29-cov2-ex9a,caitlin,MEGSUB,empirical,71,Chu-c3d86324,ACD plasma,human,21C,36,Female,White,58,conv outpatient 60d,Helen Chu,pandemic
+412,ex9a-rep*-16_*R1*,cov,20-06-29-cov2-ex9a,caitlin,MEGSUB,empirical,73,Chu-1afe94f4,ACD plasma,human,22C,65,Male,White,66,conv outpatient 60d,Helen Chu,pandemic
+413,ex9a-rep*-17_*R1*,cov,20-06-29-cov2-ex9a,caitlin,MEGSUB,empirical,75,Chu-ca561c6b,ACD plasma,human,23C,65,Female,White,64,conv outpatient 60d,Helen Chu,pandemic
+414,ex9a-rep*-18_*R1*,cov,20-06-29-cov2-ex9a,caitlin,MEGSUB,empirical,77,Chu-ef71f069,ACD plasma,human,25C,52,Female,White,77,conv outpatient 60d,Helen Chu,pandemic
+415,ex9a-rep*-19_*R1*,cov,20-06-29-cov2-ex9a,caitlin,MEGSUB,empirical,79,Chu-0f465cfc,ACD plasma,human,27C,52,Male,White,69,conv outpatient 60d,Helen Chu,pandemic
+416,ex9a-rep*-20_*R1*,cov,20-06-29-cov2-ex9a,caitlin,MEGSUB,empirical,81,Chu-fdece405,ACD plasma,human,32C,36,Male,White,57,conv outpatient 60d,Helen Chu,pandemic
+417,ex9a-rep*-21_*R1*,cov,20-06-29-cov2-ex9a,caitlin,MEGSUB,empirical,83,Chu-f634c858,ACD plasma,human,35C,29,Male,White,73,conv outpatient 60d,Helen Chu,pandemic
+418,ex9a-rep*-22_*R1*,cov,20-06-29-cov2-ex9a,caitlin,MEGSUB,empirical,89,VA HIV+ 1446,plasma,human,1446,,,,,hiv pos control,VA study,pre
+419,ex9a-rep*-23_*R1*,cov,20-06-29-cov2-ex9a,caitlin,MEGSUB,empirical,90,VA HIV+ 4037,plasma,human,4037,,,,,hiv pos control,VA study,pre
+420,ex9a-rep*-24_*R1*,cov,20-06-29-cov2-ex9a,caitlin,MEGSUB,empirical,91,VA HIV+ 4160,plasma,human,4160,,,,,hiv pos control,VA study,pre
+421,ex9a-rep*-25_*R1*,cov,20-06-29-cov2-ex9a,caitlin,MEGSUB,empirical,92,VA HIV+ 4042,plasma,human,4042,,,,,hiv pos control,VA study,pre
+422,ex9a-rep*-26_*R1*,cov,20-06-29-cov2-ex9a,caitlin,MEGSUB,empirical,93,VA HIV+ 4214,plasma,human,4214,,,,,hiv pos control,VA study,pre
+423,ex9a-rep*-27_*R1*,cov,20-06-29-cov2-ex9a,caitlin,MEGSUB,empirical,94,VA HIV+ 1228,plasma,human,1228,,,,,hiv pos control,VA study,pre
+424,ex9a-rep*-28_*R1*,cov,20-06-29-cov2-ex9a,caitlin,MEGSUB,empirical,95,VA HIV+ 1231,plasma,human,1231,,,,,hiv pos control,VA study,pre
+425,ex9a-rep*-29_*R1*,cov,20-06-29-cov2-ex9a,caitlin,MEGSUB,empirical,96,VA HIV+ 1233,plasma,human,1233,,,,,hiv pos control,VA study,pre
+426,ex9a-rep*-30_*R1*,cov,20-06-29-cov2-ex9a,caitlin,MEGSUB,empirical,97,VA HIV+ 1249,plasma,human,1249,,,,,hiv pos control,VA study,pre
+427,ex9a-rep*-31_*R1*,cov,20-06-29-cov2-ex9a,caitlin,MEGSUB,empirical,98,VA HIV+ 1259,plasma,human,1259,,,,,hiv pos control,VA study,pre
+428,ex9a-rep*-32_*R1*,cov,20-06-29-cov2-ex9a,caitlin,MEGSUB,empirical,99,McGuire CV12 IgG,mAb,NA,NA,NA,NA,NA,NA,NA,Andy McGuire Lab,NA
+429,ex9a-rep*-33_*R1*,cov,20-06-29-cov2-ex9a,caitlin,MEGSUB,empirical,100,McGuire CV39 IgG,mAb,NA,NA,NA,NA,NA,NA,NA,Andy McGuire Lab,NA
+430,ex9a-rep*-34_*R1*,cov,20-06-29-cov2-ex9a,caitlin,MEGSUB,empirical,101,McGuire CV46 IgG,mAb,NA,NA,NA,NA,NA,NA,NA,Andy McGuire Lab,NA
+431,ex9a-rep*-35_*R1*,cov,20-06-29-cov2-ex9a,caitlin,MEGSUB,empirical,102,SARS-CoV-2 Spike Neutralizing mAb,mAb,mouse,,,,,,NA,Sino,NA
+432,ex9a-rep*-36_*R1*,cov,20-06-29-cov2-ex9a,caitlin,MEGSUB,empirical,F240,F240 HIV mAb,mAb,NA,NA,NA,NA,NA,NA,NA,NA,NA
+433,ex9a-rep*-37-beads_*R1*,cov,20-06-29-cov2-ex9a,caitlin,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+434,ex9a-rep*-38-input*R1*,cov,20-06-29-cov2-ex9a,caitlin,MEGSUB,library,NA,input library,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+435,ex9B-rep*-1_*R1*,cov,20-06-30-cov2-ex9b,mackenzie,SUB2,empirical,49,Chu-208bd2e9,ACD plasma,human,3C,47,Female,White,72,conv outpatient 60d,Helen Chu,pandemic
+436,ex9B-rep*-2_*R1*,cov,20-06-30-cov2-ex9b,mackenzie,SUB2,empirical,51,Chu-7490cf2c,ACD plasma,human,4C,48,Female,White,63,conv outpatient 60d,Helen Chu,pandemic
+437,ex9B-rep*-3_*R1*,cov,20-06-30-cov2-ex9b,mackenzie,SUB2,empirical,52,Chu-42966da4,ACD plasma,human,5C,43,Female,White,60,conv outpatient 60d,Helen Chu,pandemic
+438,ex9B-rep*-4_*R1*,cov,20-06-30-cov2-ex9b,mackenzie,SUB2,empirical,54,Chu-30b5b54b,ACD plasma,human,6C,64,Female,White,76,conv outpatient 60d,Helen Chu,pandemic
+439,ex9B-rep*-5_*R1*,cov,20-06-30-cov2-ex9b,mackenzie,SUB2,empirical,55,Chu-c440fef8,ACD plasma,human,7C,65,Male,White,71,conv outpatient 60d,Helen Chu,pandemic
+440,ex9B-rep*-6_*R1*,cov,20-06-30-cov2-ex9b,mackenzie,SUB2,empirical,57,Chu-94152e0f,ACD plasma,human,8C,22,Male,White,74,conv outpatient 60d,Helen Chu,pandemic
+441,ex9B-rep*-7_*R1*,cov,20-06-30-cov2-ex9b,mackenzie,SUB2,empirical,59,Chu-d5644f2a,ACD plasma,human,10C,31,Female,White,67,conv outpatient 60d,Helen Chu,pandemic
+442,ex9B-rep*-8_*R1*,cov,20-06-30-cov2-ex9b,mackenzie,SUB2,empirical,61,Chu-49e49b80,ACD plasma,human,11C,56,Male,White,55,conv outpatient 60d,Helen Chu,pandemic
+443,ex9B-rep*-9_*R1*,cov,20-06-30-cov2-ex9b,mackenzie,SUB2,empirical,62,Chu-6312541c,ACD plasma,human,12C,68,Male,White,61,conv outpatient 60d,Helen Chu,pandemic
+444,ex9B-rep*-10_*R1*,cov,20-06-30-cov2-ex9b,mackenzie,SUB2,empirical,63,Chu-693db601,ACD plasma,human,12C,68,Male,White,91,conv outpatient 90d,Helen Chu,pandemic
+445,ex9B-rep*-11_*R1*,cov,20-06-30-cov2-ex9b,mackenzie,SUB2,empirical,65,Chu-aeeff39b,ACD plasma,human,15C,28,Female,White,67,conv outpatient 60d,Helen Chu,pandemic
+446,ex9B-rep*-12_*R1*,cov,20-06-30-cov2-ex9b,mackenzie,SUB2,empirical,66,Chu-2eae98c3,ACD plasma,human,17C,29,Male,Asian,67,conv outpatient 60d,Helen Chu,pandemic
+447,ex9B-rep*-13_*R1*,cov,20-06-30-cov2-ex9b,mackenzie,SUB2,empirical,67,Chu-6ca13f43,ACD plasma,human,19C,18,Female,White,61,conv outpatient 60d,Helen Chu,pandemic
+448,ex9B-rep*-14_*R1*,cov,20-06-30-cov2-ex9b,mackenzie,SUB2,empirical,69,Chu-a5361107,ACD plasma,human,20C,30,Male,White,62,conv outpatient 60d,Helen Chu,pandemic
+449,ex9B-rep*-15_*R1*,cov,20-06-30-cov2-ex9b,mackenzie,SUB2,empirical,71,Chu-c3d86324,ACD plasma,human,21C,36,Female,White,58,conv outpatient 60d,Helen Chu,pandemic
+450,ex9B-rep*-16_*R1*,cov,20-06-30-cov2-ex9b,mackenzie,SUB2,empirical,73,Chu-1afe94f4,ACD plasma,human,22C,65,Male,White,66,conv outpatient 60d,Helen Chu,pandemic
+451,ex9B-rep*-17_*R1*,cov,20-06-30-cov2-ex9b,mackenzie,SUB2,empirical,75,Chu-ca561c6b,ACD plasma,human,23C,65,Female,White,64,conv outpatient 60d,Helen Chu,pandemic
+452,ex9B-rep*-18_*R1*,cov,20-06-30-cov2-ex9b,mackenzie,SUB2,empirical,77,Chu-ef71f069,ACD plasma,human,25C,52,Female,White,77,conv outpatient 60d,Helen Chu,pandemic
+453,ex9B-rep*-19_*R1*,cov,20-06-30-cov2-ex9b,mackenzie,SUB2,empirical,79,Chu-0f465cfc,ACD plasma,human,27C,52,Male,White,69,conv outpatient 60d,Helen Chu,pandemic
+454,ex9B-rep*-20_*R1*,cov,20-06-30-cov2-ex9b,mackenzie,SUB2,empirical,81,Chu-fdece405,ACD plasma,human,32C,36,Male,White,57,conv outpatient 60d,Helen Chu,pandemic
+455,ex9B-rep*-21_*R1*,cov,20-06-30-cov2-ex9b,mackenzie,SUB2,empirical,83,Chu-f634c858,ACD plasma,human,35C,29,Male,White,73,conv outpatient 60d,Helen Chu,pandemic
+456,ex9B-rep*-22_*R1*,cov,20-06-30-cov2-ex9b,mackenzie,SUB2,empirical,89,VA HIV+ 1446,plasma,human,1446,,,,,hiv pos control,VA study,pre
+457,ex9B-rep*-23_*R1*,cov,20-06-30-cov2-ex9b,mackenzie,SUB2,empirical,90,VA HIV+ 4037,plasma,human,4037,,,,,hiv pos control,VA study,pre
+458,ex9B-rep*-24_*R1*,cov,20-06-30-cov2-ex9b,mackenzie,SUB2,empirical,91,VA HIV+ 4160,plasma,human,4160,,,,,hiv pos control,VA study,pre
+459,ex9B-rep*-25_*R1*,cov,20-06-30-cov2-ex9b,mackenzie,SUB2,empirical,92,VA HIV+ 4042,plasma,human,4042,,,,,hiv pos control,VA study,pre
+460,ex9B-rep*-26_*R1*,cov,20-06-30-cov2-ex9b,mackenzie,SUB2,empirical,93,VA HIV+ 4214,plasma,human,4214,,,,,hiv pos control,VA study,pre
+461,ex9B-rep*-27_*R1*,cov,20-06-30-cov2-ex9b,mackenzie,SUB2,empirical,94,VA HIV+ 1228,plasma,human,1228,,,,,hiv pos control,VA study,pre
+462,ex9B-rep*-28_*R1*,cov,20-06-30-cov2-ex9b,mackenzie,SUB2,empirical,95,VA HIV+ 1231,plasma,human,1231,,,,,hiv pos control,VA study,pre
+463,ex9B-rep*-29_*R1*,cov,20-06-30-cov2-ex9b,mackenzie,SUB2,empirical,96,VA HIV+ 1233,plasma,human,1233,,,,,hiv pos control,VA study,pre
+464,ex9B-rep*-30_*R1*,cov,20-06-30-cov2-ex9b,mackenzie,SUB2,empirical,97,VA HIV+ 1249,plasma,human,1249,,,,,hiv pos control,VA study,pre
+465,ex9B-rep*-31_*R1*,cov,20-06-30-cov2-ex9b,mackenzie,SUB2,empirical,98,VA HIV+ 1259,plasma,human,1259,,,,,hiv pos control,VA study,pre
+466,ex9B-rep*-32_*R1*,cov,20-06-30-cov2-ex9b,mackenzie,SUB2,empirical,99,McGuire CV12 IgG,mAb,NA,NA,NA,NA,NA,NA,NA,Andy McGuire Lab,NA
+467,ex9B-rep*-33_*R1*,cov,20-06-30-cov2-ex9b,mackenzie,SUB2,empirical,100,McGuire CV39 IgG,mAb,NA,NA,NA,NA,NA,NA,NA,Andy McGuire Lab,NA
+468,ex9B-rep*-34_*R1*,cov,20-06-30-cov2-ex9b,mackenzie,SUB2,empirical,101,McGuire CV46 IgG,mAb,NA,NA,NA,NA,NA,NA,NA,Andy McGuire Lab,NA
+469,ex9B-rep*-35_*R1*,cov,20-06-30-cov2-ex9b,mackenzie,SUB2,empirical,102,SARS-CoV-2 Spike Neutralizing mAb,mAb,mouse,,,,,,NA,Sino,NA
+470,ex9B-rep*-36_*R1*,cov,20-06-30-cov2-ex9b,mackenzie,SUB2,empirical,F240,F240 HIV mAb,mAb,NA,NA,NA,NA,NA,NA,NA,NA,NA
+471,ex9B-rep*-37-BEADS_*R1*,cov,20-06-30-cov2-ex9b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+472,ex9B-rep*-38-LIBRARY*R1*,cov,20-06-30-cov2-ex9b,mackenzie,SUB2,library,NA,input library,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+473,expt10A-MEGSUB-1_*R1*,cov,20-08-05-cov2-ex10a,caitlin,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+474,expt10A-MEGSUB-2_*R1*,cov,20-08-05-cov2-ex10a,caitlin,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+475,expt10A-MEGSUB-3_*R1*,cov,20-08-05-cov2-ex10a,caitlin,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+476,expt10A-MEGSUB-4_*R1*,cov,20-08-05-cov2-ex10a,caitlin,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+477,expt10A-MEGSUB-5_*R1*,cov,20-08-05-cov2-ex10a,caitlin,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+478,expt10A-MEGSUB-6_*R1*,cov,20-08-05-cov2-ex10a,caitlin,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+479,expt10A-MEGSUB-7_*R1*,cov,20-08-05-cov2-ex10a,caitlin,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+480,expt10A-MEGSUB-8_*R1*,cov,20-08-05-cov2-ex10a,caitlin,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+481,expt10A-MEGSUB-9_*R1*,cov,20-08-05-cov2-ex10a,caitlin,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+482,expt10A-MEGSUB-10_*R1*,cov,20-08-05-cov2-ex10a,caitlin,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+483,expt10A-MEGSUB-11_*R1*,cov,20-08-05-cov2-ex10a,caitlin,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+484,expt10A-MEGSUB-12_*R1*,cov,20-08-05-cov2-ex10a,caitlin,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+485,expt10A-MEGSUB-13_*R1*,cov,20-08-05-cov2-ex10a,caitlin,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+486,expt10A-MEGSUB-14_*R1*,cov,20-08-05-cov2-ex10a,caitlin,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+487,expt10A-MEGSUB-15_*R1*,cov,20-08-05-cov2-ex10a,caitlin,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+488,expt10A-MEGSUB-16_*R1*,cov,20-08-05-cov2-ex10a,caitlin,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+489,expt10A-MEGSUB-17_*R1*,cov,20-08-05-cov2-ex10a,caitlin,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+490,expt10A-MEGSUB-18_*R1*,cov,20-08-05-cov2-ex10a,caitlin,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+491,expt10A-MEGSUB-19_*R1*,cov,20-08-05-cov2-ex10a,caitlin,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+492,expt10A-MEGSUB-20_*R1*,cov,20-08-05-cov2-ex10a,caitlin,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+493,expt10A-MEGSUB-21_*R1*,cov,20-08-05-cov2-ex10a,caitlin,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+494,expt10A-MEGSUB-22_*R1*,cov,20-08-05-cov2-ex10a,caitlin,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+495,expt10A-SUB2-1_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+496,expt10A-SUB2-2_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+497,expt10A-SUB2-3_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+498,expt10A-SUB2-4_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+499,expt10A-SUB2-5_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+500,expt10A-SUB2-6_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+501,expt10A-SUB2-7_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+502,expt10A-SUB2-8_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+503,expt10A-SUB2-9_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+504,expt10A-SUB2-10_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+505,expt10A-SUB2-11_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+506,expt10A-SUB2-12_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+507,expt10A-SUB2-13_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+508,expt10A-SUB2-14_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+509,expt10A-SUB2-15_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+510,expt10A-SUB2-16_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+511,expt10A-SUB2-17_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+512,expt10A-SUB2-18_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+513,expt10A-SUB2-19_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+514,expt10A-SUB2-20_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+515,expt10A-SUB2-21_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+516,expt10A-SUB2-22_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+517,expt10A-SUB2-23_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+518,expt10A-SUB2-24_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+519,expt10A-SUB2-25_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+520,expt10A-SUB2-26_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+521,expt10A-SUB2-27_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+522,expt10A-SUB2-28_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+523,expt10A-SUB2-29_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+524,expt10A-SUB2-30_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+525,expt10A-SUB2-31_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+526,expt10A-SUB2-32_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+527,expt10A-SUB2-33_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+528,expt10A-SUB2-34_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+529,expt10A-SUB2-35_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+530,expt10A-SUB2-36_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+531,expt10A-SUB2-37_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+532,expt10A-SUB2-38_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+533,expt10A-SUB2-39_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+534,expt10A-SUB2-40_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+535,expt10A-SUB2-41_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+536,expt10A-SUB2-42_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+537,expt10A-SUB2-43_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+538,expt10A-SUB2-44_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+539,expt10A-SUB2-45_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+540,expt10A-SUB2-46_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+541,expt10A-SUB2-47_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+542,expt10A-SUB2-48_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+543,expt10A-SUB2-49_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+544,expt10A-SUB2-50_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+545,expt10A-SUB2-51_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+546,expt10A-SUB2-52_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+547,expt10A-SUB2-53_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+548,expt10A-SUB2-54_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+549,expt10A-SUB2-55_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+550,expt10A-SUB2-56_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+551,expt10A-SUB2-57_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+552,expt10A-SUB2-58_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+553,expt10A-SUB2-59_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+554,expt10A-SUB2-60_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+555,expt10A-SUB2-61_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+556,expt10A-SUB2-62_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+557,expt10A-SUB2-63_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+558,expt10A-SUB2-64_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+559,expt10A-SUB2-65_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+560,expt10A-SUB2-66_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+561,expt10A-SUB2-67_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+562,expt10A-SUB2-68_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+563,expt10A-SUB2-69_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+564,expt10A-SUB2-70_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+565,expt10A-SUB2-71_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+566,expt10A-SUB2-72_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+567,expt10A-SUB2-73_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+568,expt10A-SUB2-74_*R1*,cov,20-08-05-cov2-ex10a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+569,expt10B-MEGSUB-1_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+570,expt10B-MEGSUB-2_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+571,expt10B-MEGSUB-3_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+572,expt10B-MEGSUB-4_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+573,expt10B-MEGSUB-5_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+574,expt10B-MEGSUB-6_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+575,expt10B-MEGSUB-7_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+576,expt10B-MEGSUB-8_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+577,expt10B-MEGSUB-9_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+578,expt10B-MEGSUB-10_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+579,expt10B-MEGSUB-11_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+580,expt10B-MEGSUB-12_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+581,expt10B-MEGSUB-13_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+582,expt10B-MEGSUB-14_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+583,expt10B-MEGSUB-15_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+584,expt10B-MEGSUB-16_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+585,expt10B-MEGSUB-17_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+586,expt10B-MEGSUB-18_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+587,expt10B-MEGSUB-19_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+588,expt10B-MEGSUB-20_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+589,expt10B-MEGSUB-21_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+590,expt10B-MEGSUB-22_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,MEGSUB,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+591,expt10B-SUB2-1_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+592,expt10B-SUB2-2_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+593,expt10B-SUB2-3_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+594,expt10B-SUB2-4_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+595,expt10B-SUB2-5_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+596,expt10B-SUB2-6_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+597,expt10B-SUB2-7_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+598,expt10B-SUB2-8_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+599,expt10B-SUB2-9_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+600,expt10B-SUB2-10_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+601,expt10B-SUB2-11_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+602,expt10B-SUB2-12_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+603,expt10B-SUB2-13_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+604,expt10B-SUB2-14_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+605,expt10B-SUB2-15_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+606,expt10B-SUB2-16_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+607,expt10B-SUB2-17_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+608,expt10B-SUB2-18_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+609,expt10B-SUB2-19_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+610,expt10B-SUB2-20_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+611,expt10B-SUB2-21_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+612,expt10B-SUB2-22_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+613,expt10B-SUB2-23_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+614,expt10B-SUB2-24_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+615,expt10B-SUB2-25_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+616,expt10B-SUB2-26_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+617,expt10B-SUB2-27_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+618,expt10B-SUB2-28_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+619,expt10B-SUB2-29_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+620,expt10B-SUB2-30_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+621,expt10B-SUB2-31_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+622,expt10B-SUB2-32_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+623,expt10B-SUB2-33_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+624,expt10B-SUB2-34_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+625,expt10B-SUB2-35_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+626,expt10B-SUB2-36_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+627,expt10B-SUB2-37_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+628,expt10B-SUB2-38_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+629,expt10B-SUB2-39_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+630,expt10B-SUB2-40_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+631,expt10B-SUB2-41_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+632,expt10B-SUB2-42_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+633,expt10B-SUB2-43_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+634,expt10B-SUB2-44_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+635,expt10B-SUB2-45_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+636,expt10B-SUB2-46_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+637,expt10B-SUB2-47_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+638,expt10B-SUB2-48_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+639,expt10B-SUB2-49_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+640,expt10B-SUB2-50_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+641,expt10B-SUB2-51_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+642,expt10B-SUB2-52_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+643,expt10B-SUB2-53_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+644,expt10B-SUB2-54_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+645,expt10B-SUB2-55_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+646,expt10B-SUB2-56_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+647,expt10B-SUB2-57_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+648,expt10B-SUB2-58_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+649,expt10B-SUB2-59_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+650,expt10B-SUB2-60_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+651,expt10B-SUB2-61_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+652,expt10B-SUB2-62_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+653,expt10B-SUB2-63_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+654,expt10B-SUB2-64_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+655,expt10B-SUB2-65_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+656,expt10B-SUB2-66_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+657,expt10B-SUB2-67_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+658,expt10B-SUB2-68_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+659,expt10B-SUB2-69_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+660,expt10B-SUB2-70_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+661,expt10B-SUB2-71_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+662,expt10B-SUB2-72_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+663,expt10B-SUB2-73_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+664,expt10B-SUB2-74_*R1*,cov,20-08-05-cov2-ex10b,mackenzie,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+682,ex11a-rep*-18_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,empirical,181,Chu-32A,serum,human,32,NA,NA,NA,NA,"endemic CoV, RSV, PIV1, HRV (HAARVi inpatient)",Helen Chu Lab,pre
+683,ex11a-rep*-19_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,empirical,182,Chu-488aa7d4,serum,human,7,NA,NA,NA,NA,endemic CoV (HAARVi inpatient),Helen Chu Lab,pre
+684,ex11a-rep*-20_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,empirical,183,Chu-818D9E5C,EDTA plasma,human,NA,NA,NA,NA,NA,"endemic CoV, HRV",Helen Chu Lab,pre
+685,ex11a-rep*-21_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,empirical,184,Chu-73103290,EDTA plasma,human,NA,NA,NA,NA,NA,endemic CoV,Helen Chu Lab,pre
+686,ex11a-rep*-22_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,empirical,84,VA seroneg 5059,plasma,human,5059,NA,NA,NA,NA,HIV neg control,VA study,pre
+687,ex11a-rep*-23_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,empirical,85,VA seroneg 5061,plasma,human,5061,NA,NA,NA,NA,HIV neg control,VA study,pre
+688,ex11a-rep*-24_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,empirical,86,VA seroneg 5067,plasma,human,5067,NA,NA,NA,NA,HIV neg control,VA study,pre
+689,ex11a-rep*-25_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,empirical,87,VA seroneg 5077,plasma,human,5077,NA,NA,NA,NA,HIV neg control,VA study,pre
+690,ex11a-rep*-26_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,empirical,88,VA seroneg 5086,plasma,human,5086,NA,NA,NA,NA,HIV neg control,VA study,pre
+691,ex11a-beads-1_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+692,ex11a-beads-2_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+693,ex11a-beads-3_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+694,ex11a-beads-4_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+695,ex11a-beads-5_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+696,ex11a-beads-6_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+697,ex11a-beads-7_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+698,ex11a-beads-8_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+699,ex11a-beads-9_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+700,ex11a-beads-10_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+701,ex11a-beads-11_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+702,ex11a-beads-12_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+703,ex11a-beads-13_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+704,ex11a-beads-14_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+705,ex11a-beads-15_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+706,ex11a-beads-16_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+707,ex11a-beads-17_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+708,ex11a-beads-18_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+709,ex11a-beads-19_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+710,ex11a-beads-20_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+711,ex11a-beads-21_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+712,ex11a-beads-22_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+713,ex11a-beads-23_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+714,ex11a-beads-24_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+715,ex11a-beads-25_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+716,ex11a-beads-26_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+717,ex11a-beads-27_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+718,ex11a-beads-28_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+719,ex11a-beads-29_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+720,ex11a-beads-30_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+721,ex11a-beads-31_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+722,ex11a-beads-32_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+723,ex11a-beads-33_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+724,ex11a-beads-34_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+725,ex11a-beads-35_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+726,ex11a-beads-36_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+727,ex11a-beads-37_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+728,ex11a-beads-38_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+729,ex11a-beads-39_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+730,ex11a-beads-40_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+731,ex11a-beads-41_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+732,ex11a-beads-42_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+733,ex11a-beads-43_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+734,ex11a-beads-44_*R1*,cov,20-08-25-cov2-ex11a,caitlin,SUB2,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+735,ex11b-rep*-1_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,empirical,181,Chu-32A,serum,human,32,NA,NA,NA,NA,"endemic CoV, RSV, PIV1, HRV (HAARVi inpatient)",Helen Chu Lab,pre
+736,ex11b-rep*-2_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,empirical,182,Chu-488aa7d4,serum,human,7,NA,NA,NA,NA,endemic CoV (HAARVi inpatient),Helen Chu Lab,pre
+737,ex11b-rep*-3_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,empirical,183,Chu-818D9E5C,EDTA plasma,human,NA,NA,NA,NA,NA,"endemic CoV, HRV",Helen Chu Lab,pre
+738,ex11b-rep*-4_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,empirical,184,Chu-73103290,EDTA plasma,human,NA,NA,NA,NA,NA,endemic CoV,Helen Chu Lab,pre
+739,ex11b-rep*-5_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,empirical,84,VA seroneg 5059,plasma,human,5059,NA,NA,NA,NA,HIV neg control,VA study,pre
+740,ex11b-rep*-6_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,empirical,85,VA seroneg 5061,plasma,human,5061,NA,NA,NA,NA,HIV neg control,VA study,pre
+741,ex11b-rep*-7_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,empirical,86,VA seroneg 5067,plasma,human,5067,NA,NA,NA,NA,HIV neg control,VA study,pre
+742,ex11b-rep*-8_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,empirical,87,VA seroneg 5077,plasma,human,5077,NA,NA,NA,NA,HIV neg control,VA study,pre
+743,ex11b-rep*-9_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,empirical,88,VA seroneg 5086,plasma,human,5086,NA,NA,NA,NA,HIV neg control,VA study,pre
+744,ex11b-beads-1_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+745,ex11b-beads-2_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+746,ex11b-beads-3_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+747,ex11b-beads-4_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+748,ex11b-beads-5_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+749,ex11b-beads-6_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+750,ex11b-beads-7_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+751,ex11b-beads-8_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+752,ex11b-beads-9_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+753,ex11b-beads-10_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+754,ex11b-beads-11_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+755,ex11b-beads-12_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+756,ex11b-beads-13_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+757,ex11b-beads-14_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+758,ex11b-beads-15_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+759,ex11b-beads-16_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+760,ex11b-beads-17_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+761,ex11b-beads-18_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+762,ex11b-beads-19_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+763,ex11b-beads-20_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+764,ex11b-beads-21_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+765,ex11b-beads-22_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+766,ex11b-beads-23_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+767,ex11b-beads-24_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+768,ex11b-beads-25_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+769,ex11b-beads-26_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+770,ex11b-beads-27_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+771,ex11b-beads-28_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+772,ex11b-beads-29_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+773,ex11b-beads-30_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+774,ex11b-beads-31_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+775,ex11b-beads-32_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+776,ex11b-beads-33_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+777,ex11b-beads-34_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+778,ex11b-beads-35_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+779,ex11b-beads-36_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+780,ex11b-beads-37_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+781,ex11b-beads-38_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+782,ex11b-beads-39_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+783,ex11b-beads-40_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+784,ex11b-beads-41_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+785,ex11b-beads-42_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+786,ex11b-beads-43_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+787,ex11b-beads-44_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+788,ex11b-beads-45_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+789,ex11b-beads-46_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+790,ex11b-beads-47_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+791,ex11b-beads-48_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+792,ex11b-beads-49_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+793,ex11b-beads-50_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+794,ex11b-beads-51_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+795,ex11b-beads-52_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+796,ex11b-beads-53_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+797,ex11b-beads-54_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+798,ex11b-beads-55_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+799,ex11b-beads-56_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+800,ex11b-beads-57_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+801,ex11b-beads-58_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+802,ex11b-beads-59_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+803,ex11b-beads-60_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+804,ex11b-beads-61_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+805,ex11b-beads-62_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+806,ex11b-beads-63_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+807,ex11b-beads-64_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+808,ex11b-beads-65_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+809,ex11b-beads-66_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+810,ex11b-beads-67_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+811,ex11b-beads-68_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+812,ex11b-beads-69_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+813,ex11b-beads-70_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+814,ex11b-beads-71_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+815,ex11b-beads-72_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+816,ex11b-beads-73_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+817,ex11b-beads-74_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+818,ex11b-beads-75_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+819,ex11b-beads-76_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+820,ex11b-beads-77_*R1*,cov,20-08-25-cov2-ex11b,caitlin,LIB3,beads_only,NA,beads only,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+821,ex12-rep*-1_*R1*,cov,20-09-02-cov2-ex12,caitlin,SUB2,empirical,53,Chu-00a56f6b,ACD plasma,human,6C,64,Female,White,33,conv outpatient,Helen Chu Lab,
+822,ex12-rep*-2_*R1*,cov,20-09-02-cov2-ex12,caitlin,SUB2,empirical,57,Chu-94152e0f,ACD plasma,human,8C,22,Male,White,74,conv outpatient,Helen Chu Lab,
+823,ex12-rep*-3_*R1*,cov,20-09-02-cov2-ex12,caitlin,SUB2,empirical,60,Chu-b6b14fc5,ACD plasma,human,11C,56,Male,White,26,conv outpatient,Helen Chu Lab,
+824,ex12-rep*-4_*R1*,cov,20-09-02-cov2-ex12,caitlin,SUB2,empirical,65,Chu-aeeff39b,ACD plasma,human,15C,28,Female,White,67,conv outpatient,Helen Chu Lab,
+825,ex12-rep*-5_*R1*,cov,20-09-02-cov2-ex12,caitlin,SUB2,empirical,77,Chu-ef71f069,ACD plasma,human,25C,52,Female,White,77,conv outpatient,Helen Chu Lab,
+826,ex12-rep*-6_*R1*,cov,20-09-02-cov2-ex12,caitlin,SUB2,empirical,78,Chu-374e2105,ACD plasma,human,27C,52,Male,White,35,conv outpatient,Helen Chu Lab,
+827,ex12-rep*-7_*R1*,cov,20-09-02-cov2-ex12,caitlin,SUB2,empirical,80,Chu-62b982f7,ACD plasma,human,32C,36,Male,White,30,conv outpatient,Helen Chu Lab,
+828,ex12-rep*-8_*R1*,cov,20-09-02-cov2-ex12,caitlin,SUB2,empirical,85,VA seroneg 5061,plasma,human,5061,NA,NA,NA,NA,HIV neg control,VA study,
+829,ex12-rep*-9_*R1*,cov,20-09-02-cov2-ex12,caitlin,SUB2,empirical,86,VA seroneg 5067,plasma,human,5067,NA,NA,NA,NA,HIV neg control,VA study,
+830,ex12-rep*-10_*R1*,cov,20-09-02-cov2-ex12,caitlin,SUB2,empirical,87,VA seroneg 5077,plasma,human,5077,NA,NA,NA,NA,HIV neg control,VA study,
+831,ex12-rep*-11_*R1*,cov,20-09-02-cov2-ex12,caitlin,SUB2,empirical,88,VA seroneg 5086,plasma,human,5086,NA,NA,NA,NA,HIV neg control,VA study,
+832,ex12-rep*-12_*R1*,cov,20-09-02-cov2-ex12,caitlin,SUB2,empirical,89,VA HIV+ 1446,plasma,human,1446,NA,NA,NA,NA,hiv pos control,VA study,
+833,ex12-rep*-13_*R1*,cov,20-09-02-cov2-ex12,caitlin,SUB2,empirical,90,VA HIV+ 4037,plasma,human,4037,NA,NA,NA,NA,hiv pos control,VA study,
+834,ex12-rep*-14_*R1*,cov,20-09-02-cov2-ex12,caitlin,SUB2,empirical,91,VA HIV+ 4160,plasma,human,4160,NA,NA,NA,NA,hiv pos control,VA study,
+835,ex12-rep*-15_*R1*,cov,20-09-02-cov2-ex12,caitlin,SUB2,empirical,92,VA HIV+ 4042,plasma,human,4042,NA,NA,NA,NA,hiv pos control,VA study,
+836,ex12-rep*-16_*R1*,cov,20-09-02-cov2-ex12,caitlin,SUB2,empirical,93,VA HIV+ 4214,plasma,human,4214,NA,NA,NA,NA,hiv pos control,VA study,
+837,ex12-rep*-17_*R1*,cov,20-09-02-cov2-ex12,caitlin,SUB2,empirical,94,VA HIV+ 1228,plasma,human,1228,NA,NA,NA,NA,hiv pos control,VA study,
+838,ex12-rep*-18_*R1*,cov,20-09-02-cov2-ex12,caitlin,SUB2,empirical,95,VA HIV+ 1231,plasma,human,1231,NA,NA,NA,NA,hiv pos control,VA study,
+839,ex12-rep*-19_*R1*,cov,20-09-02-cov2-ex12,caitlin,SUB2,empirical,96,VA HIV+ 1233,plasma,human,1233,NA,NA,NA,NA,hiv pos control,VA study,
+840,ex12-rep*-20_*R1*,cov,20-09-02-cov2-ex12,caitlin,SUB2,empirical,97,VA HIV+ 1249,plasma,human,1249,NA,NA,NA,NA,hiv pos control,VA study,
+841,ex12-rep*-21_*R1*,cov,20-09-02-cov2-ex12,caitlin,SUB2,empirical,98,VA HIV+ 1259,plasma,human,1259,NA,NA,NA,NA,hiv pos control,VA study,
+842,ex12-rep*-22_*R1*,cov,20-09-02-cov2-ex12,caitlin,SUB2,empirical,181,Chu-32A,serum,human,32,NA,NA,NA,NA,"endemic CoV, RSV, PIV1, HRV (HAARVi inpatient)",Helen Chu Lab,
+843,ex12-rep*-23_*R1*,cov,20-09-02-cov2-ex12,caitlin,SUB2,empirical,182,Chu-488aa7d4,serum,human,7,NA,NA,NA,NA,endemic CoV (HAARVi inpatient),Helen Chu Lab,
+844,ex12-rep*-24_*R1*,cov,20-09-02-cov2-ex12,caitlin,SUB2,empirical,184,Chu-73103290,EDTA plasma,human,NA,NA,NA,NA,NA,endemic CoV,Helen Chu Lab,
+845,ex12-rep*-25_*R1*,cov,20-09-02-cov2-ex12,caitlin,LIB3,empirical,65,Chu-aeeff39b,ACD plasma,human,15C,28,Female,White,67,conv outpatient,Helen Chu Lab,
+846,ex12-rep*-26_*R1*,cov,20-09-02-cov2-ex12,caitlin,LIB3,empirical,78,Chu-374e2105,ACD plasma,human,27C,52,Male,White,35,conv outpatient,Helen Chu Lab,
+847,ex12-rep*-27_*R1*,cov,20-09-02-cov2-ex12,caitlin,LIB3,empirical,81,Chu-fdece405,ACD plasma,human,32C,36,Male,White,57,conv outpatient,Helen Chu Lab,
+848,ex12-rep*-28_*R1*,cov,20-09-02-cov2-ex12,caitlin,LIB3,empirical,84,VA seroneg 5059,plasma,human,5059,NA,NA,NA,NA,HIV neg control,VA study,
+849,ex12-rep*-29_*R1*,cov,20-09-02-cov2-ex12,caitlin,LIB3,empirical,85,VA seroneg 5061,plasma,human,5061,NA,NA,NA,NA,HIV neg control,VA study,
+850,ex12-rep*-30_*R1*,cov,20-09-02-cov2-ex12,caitlin,LIB3,empirical,87,VA seroneg 5077,plasma,human,5077,NA,NA,NA,NA,HIV neg control,VA study,
+851,ex12-rep*-31_*R1*,cov,20-09-02-cov2-ex12,caitlin,LIB3,empirical,89,VA HIV+ 1446,plasma,human,1446,NA,NA,NA,NA,hiv pos control,VA study,
+852,ex12-rep*-32_*R1*,cov,20-09-02-cov2-ex12,caitlin,LIB3,empirical,90,VA HIV+ 4037,plasma,human,4037,NA,NA,NA,NA,hiv pos control,VA study,
+853,ex12-rep*-33_*R1*,cov,20-09-02-cov2-ex12,caitlin,LIB3,empirical,92,VA HIV+ 4042,plasma,human,4042,NA,NA,NA,NA,hiv pos control,VA study,
+854,ex12-rep*-34_*R1*,cov,20-09-02-cov2-ex12,caitlin,LIB3,empirical,93,VA HIV+ 4214,plasma,human,4214,NA,NA,NA,NA,hiv pos control,VA study,
+855,ex12-rep*-35_*R1*,cov,20-09-02-cov2-ex12,caitlin,LIB3,empirical,94,VA HIV+ 1228,plasma,human,1228,NA,NA,NA,NA,hiv pos control,VA study,
+856,ex12-rep*-36_*R1*,cov,20-09-02-cov2-ex12,caitlin,LIB3,empirical,95,VA HIV+ 1231,plasma,human,1231,NA,NA,NA,NA,hiv pos control,VA study,
+857,ex12-rep*-37_*R1*,cov,20-09-02-cov2-ex12,caitlin,LIB3,empirical,96,VA HIV+ 1233,plasma,human,1233,NA,NA,NA,NA,hiv pos control,VA study,
+858,ex12-rep*-38_*R1*,cov,20-09-02-cov2-ex12,caitlin,LIB3,empirical,97,VA HIV+ 1249,plasma,human,1249,NA,NA,NA,NA,hiv pos control,VA study,
+859,ex12-rep*-39_*R1*,cov,20-09-02-cov2-ex12,caitlin,LIB3,empirical,98,VA HIV+ 1259,plasma,human,1259,NA,NA,NA,NA,hiv pos control,VA study,
+860,ex12-rep*-40_*R1*,cov,20-09-02-cov2-ex12,caitlin,LIB3,empirical,181,Chu-32A,serum,human,32,NA,NA,NA,NA,"endemic CoV, RSV, PIV1, HRV (HAARVi inpatient)",,
+861,ex12-rep*-41_*R1*,cov,20-09-02-cov2-ex12,caitlin,LIB3,empirical,184,Chu-73103290,EDTA plasma,human,NA,NA,NA,NA,NA,endemic CoV,Helen Chu Lab,
+862,ex12-library_*R1*,cov,20-09-02-cov2-ex12,caitlin,LIB3,library,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
