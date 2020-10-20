@@ -6,7 +6,7 @@ dubbed [phip-flow](https://github.com/matsengrp/phip-flow), that produces an xar
 containing sample and peptide metadata tied to the raw counts matrix like so:
 
 <p align="center">
-  <img src="data/cartoons/Xarray.png" width="350">
+  <img src="cartoons/Xarray.png" width="350">
 </p>
 
 With the colored columns representing coordinate dimensions and the grey squares representing data arrays
