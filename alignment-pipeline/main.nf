@@ -111,7 +111,6 @@ index_sample_ch = pep_channel_index
 
 process short_read_alignment {
 
-    publishDir "$config.output_dir/alignments/$ref_name/"
     label 'multithread'
 
     input:
@@ -150,10 +149,8 @@ process short_read_alignment {
 }
 
 
-// how might we seperate channels and pricesses based upon reference?
 process sam_to_counts {
     
-    //publishDir "$config.output_dir/alignments/$ref_name"
     label 'multithread'
 
     input:
@@ -170,8 +167,6 @@ process sam_to_counts {
             file("${ID}.${replicate_number}.tsv")
         ) into counts
 
-    // TODO, is the second 'sort' necessary?
-    // TODO, should we rm all intermediary files?
     script:
     """
     samtools view -u -@ 4 ${sam_file} | \
@@ -195,11 +190,9 @@ grouped_counts = counts
         )
     }
 
-//TODO not sure how to fix this but "-resume" skips this even 
-// if the params inside the configuration have changed.    
 process collect_phip_data {
     
-    publishDir "$config.output_dir/phip_data/", mode: 'copy'
+    publishDir "${baseDir}/phip_data/", mode: 'copy'
     label 'single_thread_large_mem'
 
     input:
