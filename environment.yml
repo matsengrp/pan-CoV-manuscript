@@ -1,0 +1,14 @@
+name: pan-cov-manuscript
+channels:
+  - anaconda
+  - bioconda
+  - conda-forge
+dependencies:
+  - python=3.6
+  - xarray
+  - numpy
+  - pandas
+  - matplotlib
+  - plotnine
+  - jupyter
+
