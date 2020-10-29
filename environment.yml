@@ -11,7 +11,4 @@ dependencies:
   - plotnine
   - seaborn
   - jupyter
-  - biopython
-  - pip
-  - pip:
-    - venn
+  - biopython=1.77

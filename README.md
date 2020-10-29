@@ -7,6 +7,49 @@ dubbed [phip-flow](https://github.com/matsengrp/phip-flow), that produces an xar
 Once this dataset is obtained, the jupyter notebooks containing all analysis may be run using the environment
 provided here along with the [phippery](git@github.com:matsengrp/phippery.git) package installed
 
+### Abstract
+
+A major goal of current SARS-CoV-2 vaccine efforts is to elicit antibody responses that confer protection.
+Mapping the epitope targets of theSARS-CoV-2antibody response is critical for innovative vaccine design, diagnostics, and development of therapeutics. 
+Here, we developed a phage display library to map antibody binding sites at high resolution with in the complete viral proteomes of all human-infecting coronavirusesin patients with mild or moderate/severe COVID-19.
+Thedominant immune responsesto SARS-CoV-2 were targeted to regions spanning the Spike protein, Nucleocapsid, and ORF1ab.
+Some epitopes were identified in the majority of samples while others were rare, and we found variation in the number of epitopes targeted by different individuals.
+We also identified a set of cross-reactive sequences that were bound by antibodiesinSARS-CoV-2 unexposed individuals. 
+Finally, we uncovered a subset of enriched epitopes from commonly circulating human coronaviruses with significant homology to highly reactive SARS-CoV-2 sequences
+
+### Analysis environment
+
+The library design script and analysis notebooks contain all code needed to run analysis 
+for the manuscript using custom code from 
+[phippery](https://github.com/matsengrp/phippery) along with a few other popular python packages.
+
+We suggest using [conda](https://www.anaconda.com/) to create the environment like so:
+```
+conda env create -f environment.yml && conda activate pan-cov-manuscript
+mkdir -p _ignore && cd _ignore
+git clone git@github.com:matsengrp/phippery.git
+cd phippery && python setup.py install --user && cd ../../
+```
+
+### library design
+
+The pan-human CoV was created using a script that can also be found 
+[here](https://github.com/jbloomlab/phipseq_oligodesign) 
+and was written by Kate H.D Crawford in the Bloom lab.
+The fasta files needed to create the library are located in the library-design
+directory. simply run
+
+```
+cd library-design
+tar -xvf prot_files.tar
+```
+
+Next, to create the library, make sure your environment is activated then
+
+```
+python phip_seq_oligodesign.py prot_files out_dir protein
+```
+
 ### Running the alignment pipeline
 
 All raw fastq files for the samples can be obtained upon request and will be provided in a tarball, `NGS.tar`.
@@ -30,6 +73,8 @@ containing sample and peptide metadata tied to the raw counts matrix like so:
 With the colored columns representing coordinate dimensions and the grey squares representing data arrays
 organized by respective shared dimensions.
 
+
+
 ### Running the analysis notebooks
 
 Upon request, we can also provide you with the pre-aligned xarray dataset described above in a
@@ -37,13 +82,6 @@ Upon request, we can also provide you with the pre-aligned xarray dataset descri
 dumped binary file, named `pan-cov-ds.phip`. This is the file generated from the pipeline
 described above, as well as the only file you'll need to run all the analysis notebooks.
 
-We suggest using [conda](https://www.anaconda.com/) to create the environment like so:
-```
-conda env create -f environment.yml && conda activate pan-cov-manuscript
-mkdir -p _ignore && cd _ignore
-git clone git@github.com:matsengrp/phippery.git
-cd phippery && python setup.py install --user && cd ../../
-```
 Once obtained, place the `pan-cov-ds.phip` into the `_ignore` directory then simply
 ```
 cd analysis-notebooks
@@ -51,8 +89,6 @@ jupyter notebook
 ```
 to launch jupyter notebooks.
 
-These notebooks contains all analysis run for the manuscript using custom code from 
-[phippery](https://github.com/matsengrp/phippery)
 
 **Pan-CoV-Analysis.ipynb**
 
