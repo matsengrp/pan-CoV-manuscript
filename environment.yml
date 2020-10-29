@@ -9,6 +9,7 @@ dependencies:
   - pandas
   - matplotlib
   - plotnine
+  - seaborn
   - jupyter
   - biopython
 
