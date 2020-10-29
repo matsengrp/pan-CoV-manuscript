@@ -12,4 +12,6 @@ dependencies:
   - seaborn
   - jupyter
   - biopython
-
+  - pip
+  - pip:
+    - venn
